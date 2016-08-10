@@ -1,0 +1,3625 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="stylesheet" href="jquery.mobile-1.4.5.min.css">
+    <script src="jquery-2.0.3.min.js"></script>
+    <script src="jquery.mobile-1.4.5.min.js"></script>
+    <script type="text/javascript" src='unslider.min.js'></script>
+    <style type="text/css">
+        *{
+        	margin:0;padding: 0;
+        }
+    	.slider{ position:relative;width: 100%;top: 10px;	border-radius:5px; }
+        .slider .tabcon li{float: left;overflow:hidden}
+        #heros{
+        	width: 90%;
+        	position: relative;margin:auto;
+        	left: 3%;
+        	margin-top: 10px;
+        }
+        #heros ul{
+        	margin-bottom: 20px;
+        }
+        
+        #heros ul li{
+        	float: left;
+        	padding-top: 6px;
+        	list-style: none;
+        	padding-right: 12px;
+            
+
+        }
+        #heros ul li figcaption{
+        	font-size: 10px;
+        	color: #000;
+        	text-align: center;
+        	font-weight: 100;
+        }
+        #heros ul li a{
+        	text-decoration: none;
+        }
+        #heros ul li a figure{
+        	box-shadow:4px 4px 8px #999999;
+        }
+        #nothing{
+        	width: 100%;
+        	height:50px;
+        	clear: both;
+        	text-align: center;
+        	padding-top: 10px;
+        }
+        .story img{
+        	width: 100%;
+        	float: left;
+        }
+        .story h3{
+        	text-align: center;
+        }
+        .tabcon img{
+        	width: 100%;
+        }
+    </style>
+    <script type="text/javascript">
+       $(function() {
+	         if(window.chrome){$('.slider li').css('background-size', '100% 100%');}
+	         $('.slider').unslider({
+		          speed: 500,               
+		          delay: 3000,               
+		          keys: true,               
+		          dots: true,               
+		          fluid: false,              
+	          });
+	
+       });
+    </script>
+	
+
+	<title>dota2</title>
+</head>
+<body>
+    <!--首页-->
+	<div data-role='page' id="page1" data-theme="a">
+		<div data-role='header'>
+		    <a href="#page1" data-role="button" data-icon="home">首页</a>
+			<h1>刀塔2·英雄馆</h1>
+		</div>
+		<div data-role="content">
+            <img src="image/pic1.jpg" style="width:100%;">
+            <a href="#page114" data-role="button" >DOTA2介绍</a>
+            
+            <a href="#page2" data-role="button" >英雄资料</a>
+            <a href="#page115" data-role="button" >幸鹏</a>
+            <section class="slider cl has-dots">
+            
+              <ul class="tabcon">
+                 <li><img name="" src="image/pic2.png" ></li>
+                 <li><img name="" src="image/pic3.png" ></li>
+                 <li><img name="" src="image/pic4.png" ></li>
+                 <li><img name="" src="image/pic5.png" ></li>
+              </ul>
+            </section>       
+        </div>
+		
+		<div data-role='footer' data-position="fixed">
+		    
+			<h1>DOTA2·Hero Hall</h1>
+			
+		</div>
+	</div>
+	<!--英雄池-->
+	<div data-role='page' id="page2" data-theme="a">
+		<div data-role='header' data-position="fixed">
+		    <a href="#page1" data-role="button" data-icon="home">首页</a>
+			<h1>刀塔·英雄资料</h1>
+		</div>
+		
+		<div id="heros">
+			<h3 style="text-align:center;font-size:25px;padding-top:10px;">力量型</h3>
+			<ul>
+				<li>
+					<a href="#page3">
+						<figure>
+					    <img src="hero image/pic10.png" width="60px" height="40px" />
+                        <figcaption>兽王</figcaption>
+                        </figure>
+					</a>
+				</li>
+				<li>
+					<a href="#page4">
+						<figure>
+					    <img src="hero image/pic11.png" width="60px" height="40px" />
+                        <figcaption>酒仙</figcaption>
+                        </figure>
+					</a>
+				</li>
+				<li>
+					<a href="#page5">
+						<figure>
+					    <img src="hero image/pic12.png" width="60px" height="40px" />
+                        <figcaption>钢背兽</figcaption>
+                        </figure>
+					</a>
+				</li>
+				<li>
+					<a href="#page6">
+						<figure>
+					    <img src="hero image/pic13.png" width="60px" height="40px" />
+                        <figcaption>半人马</figcaption>
+                        </figure>
+					</a>
+				</li>
+				<li>
+					<a href="#page7">
+						<figure>
+					    <img src="hero image/pic14.png" width="60px" height="40px" />
+                        <figcaption>混沌骑士</figcaption>
+                        </figure>
+					</a>
+				</li>
+				<li>
+					<a href="#page8">
+						<figure>
+					    <img src="hero image/pic15.png" width="60px" height="40px" />
+                        <figcaption>末日使者</figcaption>
+                        </figure>
+					</a>
+				</li>
+				<li>
+					<a href="#page9">
+						<figure>
+					    <img src="hero image/pic16.png" width="60px" height="40px" />
+                        <figcaption>龙骑士</figcaption>
+                        </figure>
+					</a>
+				</li>
+				<li>
+					<a href="#page10">
+						<figure>
+					    <img src="hero image/pic17.png" width="60px" height="40px" />
+                        <figcaption>大地之灵</figcaption>
+                        </figure>
+					</a>
+				</li>
+				<li>
+					<a href="#page11">
+						<figure>
+					    <img src="hero image/pic18.png" width="60px" height="40px" />
+                        <figcaption>上古巨神</figcaption>
+                        </figure>
+					</a>
+				</li>
+				<li>
+					<a href="#page12">
+						<figure>
+					    <img src="hero image/pic19.png" width="60px" height="40px" />
+                        <figcaption>哈斯卡</figcaption>
+                        </figure>
+					</a>
+				</li>
+				<li>
+					<a href="#page13">
+						<figure>
+					    <img src="hero image/pic20.png" width="60px" height="40px" />
+                        <figcaption>船长</figcaption>
+                        </figure>
+					</a>
+				</li>
+				<li>
+					<a href="#page14">
+						<figure>
+					    <img src="hero image/pic21.png" width="60px" height="40px" />
+                        <figcaption>军团指挥官</figcaption>
+                        </figure>
+					</a>
+				</li>
+				<li>
+					<a href="#page15">
+						<figure>
+					    <img src="hero image/pic22.png" width="60px" height="40px" />
+                        <figcaption>噬魂鬼</figcaption>
+                        </figure>
+					</a>
+				</li>
+				<li>
+					<a href="#page16">
+						<figure>
+					    <img src="hero image/pic23.png" width="60px" height="40px" />
+                        <figcaption>狼人</figcaption>
+                        </figure>
+					</a>
+				</li>
+				<li>
+					<a href="#page17">
+						<figure>
+					    <img src="hero image/pic24.png" width="60px" height="40px" />
+                        <figcaption>玛格纳斯</figcaption>
+                        </figure>
+					</a>
+				</li>
+				<li>
+					<a href="#page18">
+						<figure>
+					    <img src="hero image/pic25.png" width="60px" height="40px" />
+                        <figcaption>暗夜魔王</figcaption>
+                        </figure>
+					</a>
+				</li>
+				<li>
+					<a href="#page19">
+						<figure>
+					    <img src="hero image/pic26.png" width="60px" height="40px" />
+                        <figcaption>全能骑士</figcaption>
+                        </figure>
+					</a>
+				</li>
+				<li>
+					<a href="#page20">
+						<figure>
+					    <img src="hero image/pic27.png" width="60px" height="40px" />
+                        <figcaption>凤凰</figcaption>
+                        </figure>
+					</a>
+				</li>
+				<li>
+					<a href="#page21">
+						<figure>
+					    <img src="hero image/pic28.png" width="60px" height="40px" />
+                        <figcaption>屠夫</figcaption>
+                        </figure>
+					</a>
+				</li>
+				<li>
+					<a href="#page22">
+						<figure>
+					    <img src="hero image/pic29.png" width="60px" height="40px" />
+                        <figcaption>发条技师</figcaption>
+                        </figure>
+					</a>
+				</li>
+				<li>
+					<a href="#page23">
+						<figure>
+					    <img src="hero image/pic30.png" width="60px" height="40px" />
+                        <figcaption>沙王</figcaption>
+                        </figure>
+					</a>
+				</li>
+				<li>
+					<a href="#page24">
+						<figure>
+					    <img src="hero image/pic31.png" width="60px" height="40px" />
+                        <figcaption>伐木机</figcaption>
+                        </figure>
+					</a>
+				</li>
+				<li>
+					<a href="#page25">
+						<figure>
+					    <img src="hero image/pic32.png" width="60px" height="40px" />
+                        <figcaption>斯拉达</figcaption>
+                        </figure>
+					</a>
+				</li>
+				<li>
+					<a href="#page26">
+						<figure>
+					    <img src="hero image/pic33.png" width="60px" height="40px" />
+                        <figcaption>裂魂人</figcaption>
+                        </figure>
+					</a>
+				</li>
+				<li>
+					<a href="#page27">
+						<figure>
+					    <img src="hero image/pic34.png" width="60px" height="40px" />
+                        <figcaption>斯温</figcaption>
+                        </figure>
+					</a>
+				</li>
+				<li>
+					<a href="#page28">
+						<figure>
+					    <img src="hero image/pic35.png" width="60px" height="40px" />
+                        <figcaption>潮汐猎人</figcaption>
+                        </figure>
+					</a>
+				</li>
+				<li>
+					<a href="#page29">
+						<figure>
+					    <img src="hero image/pic36.png" width="60px" height="40px" />
+                        <figcaption>小小</figcaption>
+                        </figure>
+					</a>
+				</li>
+				<li>
+					<a href="#page30">
+						<figure>
+					    <img src="hero image/pic37.png" width="60px" height="40px" />
+                        <figcaption>树精卫士</figcaption>
+                        </figure>
+					</a>
+				</li>
+				<li>
+					<a href="#page31">
+						<figure>
+					    <img src="hero image/pic38.png" width="60px" height="40px" />
+                        <figcaption>巨牙海民</figcaption>
+                        </figure>
+					</a>
+				</li>
+				<li>
+					<a href="#page32">
+						<figure>
+					    <img src="hero image/pic39.png" width="60px" height="40px" />
+                        <figcaption>不朽尸王</figcaption>
+                        </figure>
+					</a>
+				</li>
+				<li>
+					<a href="#page33">
+						<figure>
+					    <img src="hero image/pic40.png" width="60px" height="40px" />
+                        <figcaption>艾欧</figcaption>
+                        </figure>
+					</a>
+				</li>
+				<li>
+					<a href="#page34">
+						<figure>
+					    <img src="hero image/pic41.png" width="60px" height="40px" />
+                        <figcaption>冥魂大帝</figcaption>
+                        </figure>
+					</a>
+				</li>
+				<li>
+					<a href="#page35">
+						<figure>
+					    <img src="hero image/pic6.png" width="60px" height="40px" />
+                        <figcaption>撼地者</figcaption>
+                        </figure>
+					</a>
+				</li>
+				<li>
+					<a href="#page36">
+						<figure>
+					    <img src="hero image/pic7.png" width="60px" height="40px" />
+                        <figcaption>亚巴顿</figcaption>
+                        </figure>
+					</a>
+				</li>
+				<li>
+					<a href="#page37">
+						<figure>
+					    <img src="hero image/pic8.png" width="60px" height="40px" />
+                        <figcaption>炼金术士</figcaption>
+                        </figure>
+					</a>
+				</li>
+				<li>
+					<a href="#page38">
+						<figure>
+					    <img src="hero image/pic9.png" width="60px" height="40px" />
+                        <figcaption>斧王</figcaption>
+                        </figure>
+					</a>
+				</li>
+			</ul>
+			<h3 style="text-align:center;clear:both;font-size:25px;padding-top:10px;">敏捷型</h3>
+            <ul>
+            	<li>
+					<a href="#page39">
+						<figure>
+					    <img src="hero image/pic42.png" width="60px" height="40px" />
+                        <figcaption>敌法师</figcaption>
+                        </figure>
+					</a>
+				</li>
+				<li>
+					<a href="#page40">
+						<figure>
+					    <img src="hero image/pic43.png" width="60px" height="40px" />
+                        <figcaption>天穹守望者</figcaption>
+                        </figure>
+					</a>
+				</li>
+				<li>
+					<a href="#page41">
+						<figure>
+					    <img src="hero image/pic44.png" width="60px" height="40px" />
+                        <figcaption>嗜血狂魔</figcaption>
+                        </figure>
+					</a>
+				</li>
+				<li>
+					<a href="#page42">
+						<figure>
+					    <img src="hero image/pic45.png" width="60px" height="40px" />
+                        <figcaption>赏金猎人</figcaption>
+                        </figure>
+					</a>
+				</li>
+				<li>
+					<a href="#page43">
+						<figure>
+					    <img src="hero image/pic46.png" width="60px" height="40px" />
+                        <figcaption>育母蜘蛛</figcaption>
+                        </figure>
+					</a>
+				</li>
+				<li>
+					<a href="#page44">
+						<figure>
+					    <img src="hero image/pic47.png" width="60px" height="40px" />
+                        <figcaption>克林克兹</figcaption>
+                        </figure>
+					</a>
+				</li>
+				<li>
+					<a href="#page45">
+						<figure>
+					    <img src="hero image/pic48.png" width="60px" height="40px" />
+                        <figcaption>卓尔游侠</figcaption>
+                        </figure>
+					</a>
+				</li>
+				<li>
+					<a href="#page46">
+						<figure>
+					    <img src="hero image/pic49.png" width="60px" height="40px" />
+                        <figcaption>灰烬之灵</figcaption>
+                        </figure>
+					</a>
+				</li>
+				<li>
+					<a href="#page47">
+						<figure>
+					    <img src="hero image/pic50.png" width="60px" height="40px" />
+                        <figcaption>虚空假面</figcaption>
+                        </figure>
+					</a>
+				</li>
+				<li>
+					<a href="#page48">
+						<figure>
+					    <img src="hero image/pic51.png" width="60px" height="40px" />
+                        <figcaption>矮人直升机</figcaption>
+                        </figure>
+					</a>
+				</li>
+				<li>
+					<a href="#page49">
+						<figure>
+					    <img src="hero image/pic52.png" width="60px" height="40px" />
+                        <figcaption>主宰</figcaption>
+                        </figure>
+					</a>
+				</li>
+				<li>
+					<a href="#page50">
+						<figure>
+					    <img src="hero image/pic53.png" width="60px" height="40px" />
+                        <figcaption>德鲁伊</figcaption>
+                        </figure>
+					</a>
+				</li>
+				<li>
+					<a href="#page51">
+						<figure>
+					    <img src="hero image/pic54.png" width="60px" height="40px" />
+                        <figcaption>露娜</figcaption>
+                        </figure>
+					</a>
+				</li>
+				<li>
+					<a href="#page52">
+						<figure>
+					    <img src="hero image/pic55.png" width="60px" height="40px" />
+                        <figcaption>美杜莎</figcaption>
+                        </figure>
+					</a>
+				</li>
+				<li>
+					<a href="#page53">
+						<figure>
+					    <img src="hero image/pic56.png" width="60px" height="40px" />
+                        <figcaption>米波</figcaption>
+                        </figure>
+					</a>
+				</li>
+				<li>
+					<a href="#page54">
+						<figure>
+					    <img src="hero image/pic57.png" width="60px" height="40px" />
+                        <figcaption>米拉娜</figcaption>
+                        </figure>
+					</a>
+				</li>
+				<li>
+					<a href="#page55">
+						<figure>
+					    <img src="hero image/pic58.png" width="60px" height="40px" />
+                        <figcaption>变体精灵</figcaption>
+                        </figure>
+					</a>
+				</li>
+				<li>
+					<a href="#page56">
+						<figure>
+					    <img src="hero image/pic59.png" width="60px" height="40px" />
+                        <figcaption>娜迦海妖</figcaption>
+                        </figure>
+					</a>
+				</li>
+				<li>
+					<a href="#page57">
+						<figure>
+					    <img src="hero image/pic60.png" width="60px" height="40px" />
+                        <figcaption>影魔</figcaption>
+                        </figure>
+					</a>
+				</li>
+				<li>
+					<a href="#page58">
+						<figure>
+					    <img src="hero image/pic61.png" width="60px" height="40px" />
+                        <figcaption>司夜刺客</figcaption>
+                        </figure>
+					</a>
+				</li>
+				<li>
+					<a href="#page59">
+						<figure>
+					    <img src="hero image/pic62.png" width="60px" height="40px" />
+                        <figcaption>幻影刺客</figcaption>
+                        </figure>
+					</a>
+				</li>
+				<li>
+					<a href="#page60">
+						<figure>
+					    <img src="hero image/pic63.png" width="60px" height="40px" />
+                        <figcaption>幻影长矛手</figcaption>
+                        </figure>
+					</a>
+				</li>
+				<li>
+					<a href="#page61">
+						<figure>
+					    <img src="hero image/pic64.png" width="60px" height="40px" />
+                        <figcaption>剃刀</figcaption>
+                        </figure>
+					</a>
+				</li>
+				<li>
+					<a href="#page62">
+						<figure>
+					    <img src="hero image/pic65.png" width="60px" height="40px" />
+                        <figcaption>力丸</figcaption>
+                        </figure>
+					</a>
+				</li>
+				<li>
+					<a href="#page63">
+						<figure>
+					    <img src="hero image/pic66.png" width="60px" height="40px" />
+                        <figcaption>斯拉克</figcaption>
+                        </figure>
+					</a>
+				</li>
+				<li>
+					<a href="#page64">
+						<figure>
+					    <img src="hero image/pic67.png" width="60px" height="40px" />
+                        <figcaption>狙击手</figcaption>
+                        </figure>
+					</a>
+				</li>
+				<li>
+					<a href="#page65">
+						<figure>
+					    <img src="hero image/pic68.png" width="60px" height="40px" />
+                        <figcaption>幽鬼</figcaption>
+                        </figure>
+					</a>
+				</li>
+				<li>
+					<a href="#page66">
+						<figure>
+					    <img src="hero image/pic69.png" width="60px" height="40px" />
+                        <figcaption>圣堂刺客</figcaption>
+                        </figure>
+					</a>
+				</li>
+				<li>
+					<a href="#page67">
+						<figure>
+					    <img src="hero image/pic70.png" width="60px" height="40px" />
+                        <figcaption>恐怖利刃</figcaption>
+                        </figure>
+					</a>
+				</li>
+				<li>
+					<a href="#page68">
+						<figure>
+					    <img src="hero image/pic71.png" width="60px" height="40px" />
+                        <figcaption>巨魔战将</figcaption>
+                        </figure>
+					</a>
+				</li>
+				<li>
+					<a href="#page69">
+						<figure>
+					    <img src="hero image/pic72.png" width="60px" height="40px" />
+                        <figcaption>熊战士</figcaption>
+                        </figure>
+					</a>
+				</li>
+				<li>
+					<a href="#page70">
+						<figure>
+					    <img src="hero image/pic73.png" width="60px" height="40px" />
+                        <figcaption>复仇之魂</figcaption>
+                        </figure>
+					</a>
+				</li>
+				<li>
+					<a href="#page71">
+						<figure>
+					    <img src="hero image/pic74.png" width="60px" height="40px" />
+                        <figcaption>剧毒术士</figcaption>
+                        </figure>
+					</a>
+				</li>
+				<li>
+					<a href="#page72">
+						<figure>
+					    <img src="hero image/pic75.png" width="60px" height="40px" />
+                        <figcaption>冥界亚龙</figcaption>
+                        </figure>
+					</a>
+				</li>
+				<li>
+					<a href="#page73">
+						<figure>
+					    <img src="hero image/pic76.png" width="60px" height="40px" />
+                        <figcaption>编制者</figcaption>
+                        </figure>
+					</a>
+				</li>
+            </ul>
+            <h3 style="text-align:center;clear:both;font-size:25px;padding-top:10px;">智力型</h3>
+            <ul>
+            	<li>
+					<a href="#page74">
+						<figure>
+					    <img src="hero image/pic77.png" width="60px" height="40px" />
+                        <figcaption>祸乱之源</figcaption>
+                        </figure>
+					</a>
+				</li>
+				<li>
+					<a href="#page75">
+						<figure>
+					    <img src="hero image/pic78.png" width="60px" height="40px" />
+                        <figcaption>蝙蝠骑士</figcaption>
+                        </figure>
+					</a>
+				</li>
+				<li>
+					<a href="#page76">
+						<figure>
+					    <img src="hero image/pic79.png" width="60px" height="40px" />
+                        <figcaption>陈</figcaption>
+                        </figure>
+					</a>
+				</li>
+				<li>
+					<a href="#page77">
+						<figure>
+					    <img src="hero image/pic80.png" width="60px" height="40px" />
+                        <figcaption>水晶室女</figcaption>
+                        </figure>
+					</a>
+				</li>
+				<li>
+					<a href="#page78">
+						<figure>
+					    <img src="hero image/pic81.png" width="60px" height="40px" />
+                        <figcaption>黑暗贤者</figcaption>
+                        </figure>
+					</a>
+				</li>
+				<li>
+					<a href="#page79">
+						<figure>
+					    <img src="hero image/pic82.png" width="60px" height="40px" />
+                        <figcaption>戴泽</figcaption>
+                        </figure>
+					</a>
+				</li>
+				<li>
+					<a href="#page80">
+						<figure>
+					    <img src="hero image/pic83.png" width="60px" height="40px" />
+                        <figcaption>死亡先知</figcaption>
+                        </figure>
+					</a>
+				</li>
+				<li>
+					<a href="#page81">
+						<figure>
+					    <img src="hero image/pic84.png" width="60px" height="40px" />
+                        <figcaption>干扰者</figcaption>
+                        </figure>
+					</a>
+				</li>
+				<li>
+					<a href="#page82">
+						<figure>
+					    <img src="hero image/pic85.png" width="60px" height="40px" />
+                        <figcaption>魅惑魔女</figcaption>
+                        </figure>
+					</a>
+				</li>
+				<li>
+					<a href="#page83">
+						<figure>
+					    <img src="hero image/pic86.png" width="60px" height="40px" />
+                        <figcaption>谜团</figcaption>
+                        </figure>
+					</a>
+				</li>
+				<li>
+					<a href="#page84">
+						<figure>
+					    <img src="hero image/pic87.png" width="60px" height="40px" />
+                        <figcaption>先知</figcaption>
+                        </figure>
+					</a>
+				</li>
+				<li>
+					<a href="#page85">
+						<figure>
+					    <img src="hero image/pic88.png" width="60px" height="40px" />
+                        <figcaption>祈求者</figcaption>
+                        </figure>
+					</a>
+				</li>
+				<li>
+					<a href="#page86">
+						<figure>
+					    <img src="hero image/pic89.png" width="60px" height="40px" />
+                        <figcaption>杰奇洛</figcaption>
+                        </figure>
+					</a>
+				</li>
+				<li>
+					<a href="#page87">
+						<figure>
+					    <img src="hero image/pic90.png" width="60px" height="40px" />
+                        <figcaption>光之守卫</figcaption>
+                        </figure>
+					</a>
+				</li>
+				<li>
+					<a href="#page88">
+						<figure>
+					    <img src="hero image/pic91.png" width="60px" height="40px" />
+                        <figcaption>拉席克</figcaption>
+                        </figure>
+					</a>
+				</li>
+				<li>
+					<a href="#page89">
+						<figure>
+					    <img src="hero image/pic92.png" width="60px" height="40px" />
+                        <figcaption>巫妖</figcaption>
+                        </figure>
+					</a>
+				</li>
+				<li>
+					<a href="#page90">
+						<figure>
+					    <img src="hero image/pic93.png" width="60px" height="40px" />
+                        <figcaption>莉娜</figcaption>
+                        </figure>
+					</a>
+				</li>
+				<li>
+					<a href="#page91">
+						<figure>
+					    <img src="hero image/pic94.png" width="60px" height="40px" />
+                        <figcaption>莱恩</figcaption>
+                        </figure>
+					</a>
+				</li>
+				<li>
+					<a href="#page92">
+						<figure>
+					    <img src="hero image/pic95.png" width="60px" height="40px" />
+                        <figcaption>瘟疫法师</figcaption>
+                        </figure>
+					</a>
+				</li>
+				<li>
+					<a href="#page93">
+						<figure>
+					    <img src="hero image/pic96.png" width="60px" height="40px" />
+                        <figcaption>殁境神蚀者</figcaption>
+                        </figure>
+					</a>
+				</li>
+				<li>
+					<a href="#page94">
+						<figure>
+					    <img src="hero image/pic97.png" width="60px" height="40px" />
+                        <figcaption>蓝胖子</figcaption>
+                        </figure>
+					</a>
+				</li>
+				<li>
+					<a href="#page95">
+						<figure>
+					    <img src="hero image/pic98.png" width="60px" height="40px" />
+                        <figcaption>神谕者</figcaption>
+                        </figure>
+					</a>
+				</li>
+				<li>
+					<a href="#page96">
+						<figure>
+					    <img src="hero image/pic99.png" width="60px" height="40px" />
+                        <figcaption>远古冰魄</figcaption>
+                        </figure>
+					</a>
+				</li>
+				<li>
+					<a href="#page97">
+						<figure>
+					    <img src="hero image/pic100.png" width="60px" height="40px" />
+                        <figcaption>帕克</figcaption>
+                        </figure>
+					</a>
+				</li>
+				<li>
+					<a href="#page98">
+						<figure>
+					    <img src="hero image/pic101.png" width="60px" height="40px" />
+                        <figcaption>帕格纳</figcaption>
+                        </figure>
+					</a>
+				</li>
+				<li>
+					<a href="#page99">
+						<figure>
+					    <img src="hero image/pic102.png" width="60px" height="40px" />
+                        <figcaption>痛苦女王</figcaption>
+                        </figure>
+					</a>
+				</li>
+				<li>
+					<a href="#page100">
+						<figure>
+					    <img src="hero image/pic103.png" width="60px" height="40px" />
+                        <figcaption>拉比克</figcaption>
+                        </figure>
+					</a>
+				</li>
+				<li>
+					<a href="#page101">
+						<figure>
+					    <img src="hero image/pic104.png" width="60px" height="40px" />
+                        <figcaption>暗影恶魔</figcaption>
+                        </figure>
+					</a>
+				</li>
+				<li>
+					<a href="#page102">
+						<figure>
+					    <img src="hero image/pic105.png" width="60px" height="40px" />
+                        <figcaption>暗影萨满</figcaption>
+                        </figure>
+					</a>
+				</li>
+				<li>
+					<a href="#page103">
+						<figure>
+					    <img src="hero image/pic106.png" width="60px" height="40px" />
+                        <figcaption>沉默术士</figcaption>
+                        </figure>
+					</a>
+				</li>
+				<li>
+					<a href="#page104">
+						<figure>
+					    <img src="hero image/pic107.png" width="60px" height="40px" />
+                        <figcaption>天怒法师</figcaption>
+                        </figure>
+					</a>
+				</li>
+				<li>
+					<a href="#page105">
+						<figure>
+					    <img src="hero image/pic108.png" width="60px" height="40px" />
+                        <figcaption>风暴之灵</figcaption>
+                        </figure>
+					</a>
+				</li>
+				<li>
+					<a href="#page106">
+						<figure>
+					    <img src="hero image/pic109.png" width="60px" height="40px" />
+                        <figcaption>工程师</figcaption>
+                        </figure>
+					</a>
+				</li>
+				<li>
+					<a href="#page107">
+						<figure>
+					    <img src="hero image/pic110.png" width="60px" height="40px" />
+                        <figcaption>修补匠</figcaption>
+                        </figure>
+					</a>
+				</li>
+				<li>
+					<a href="#page108">
+						<figure>
+					    <img src="hero image/pic111.png" width="60px" height="40px" />
+                        <figcaption>维萨吉</figcaption>
+                        </figure>
+					</a>
+				</li>
+				<li>
+					<a href="#page109">
+						<figure>
+					    <img src="hero image/pic112.png" width="60px" height="40px" />
+                        <figcaption>术士</figcaption>
+                        </figure>
+					</a>
+				</li>
+				<li>
+					<a href="#page110">
+						<figure>
+					    <img src="hero image/pic113.png" width="60px" height="40px" />
+                        <figcaption>风行者</figcaption>
+                        </figure>
+					</a>
+				</li>
+				<li>
+					<a href="#page111">
+						<figure>
+					    <img src="hero image/pic114.png" width="60px" height="40px" />
+                        <figcaption>寒冬飞龙</figcaption>
+                        </figure>
+					</a>
+				</li>
+				<li>
+					<a href="#page112">
+						<figure>
+					    <img src="hero image/pic115.png" width="60px" height="40px" />
+                        <figcaption>巫医</figcaption>
+                        </figure>
+					</a>
+				</li>
+				<li>
+					<a href="#page113">
+						<figure>
+					    <img src="hero image/pic116.png" width="60px" height="40px" />
+                        <figcaption>宙斯</figcaption>
+                        </figure>
+					</a>
+				</li>
+            </ul>
+		</div>
+            
+		<div id="nothing">更多英雄，敬请期待！</div>
+		<div data-role='footer' data-position="fixed">
+			<h1>DOTA2·Hero Hall</h1>
+		</div>
+	</div>
+    <!--游戏介绍-->
+    <div data-role='page' id="page114" data-theme="a">
+		<div data-role='header'>
+		    <a href="#page1" data-role="button" data-icon="home">首页</a>
+			<h1>刀塔2·英雄馆</h1>
+		</div>
+		<div data-role="content">
+            <img src="image/pic1.jpg" style="width:100%;">
+            <p>《DOTA2》，是脱离了其上一代作品《DOTA》所依赖的War3的引擎，由《DOTA》的地图核心制作者IceFrog（冰蛙）联手美国Valve公司使用他们的Source引擎研发的、Valve运营，完美世界代理（国服），韩国NEXON代理（韩服）的多人联机对抗RPG。</p>
+            <p>《DOTA2》游戏保持原有风格不变，《DOTA》中的100多位英雄正在逐步的移植到《DOTA2》中。从某种程度上来说，《DOTA2》是现有DOTA的新引擎版。完美正式宣布DOTA2于2013年4月28日开始测试， 已发布中文名“刀塔”。</p>
+        </div>
+		
+		<div data-role='footer' data-position="fixed">
+		    
+			<h1>DOTA2·Hero Hall</h1>
+			
+		</div>
+	</div>
+
+    <!--自我介绍-->
+    <div data-role='page' id="page115" data-theme="a">
+		<div data-role='header'>
+		    <a href="#page1" data-role="button" data-icon="home">首页</a>
+			<h1>刀塔2·英雄馆</h1>
+		</div>
+		<div data-role="content">
+            <div class="story">
+            	<img src="image/pic1.jpg">
+            	<h3>我叫幸鹏</h3>
+                <p>十分感谢您能看到这！</p>
+                <h3>我的联系方式--<br/>邮箱：645983133@qq.com</h3>
+                <h3>手机：18155143411</h3>
+
+            </div>
+        </div>
+		
+		<div data-role='footer' data-position="fixed">
+		    <a href="#" data-role="button" data-rel="back">返回</a>  
+			
+			
+		</div>
+	</div>
+
+	<!--英雄详细介绍-->
+	<div data-role='page' id="page3" data-theme="a">
+		<div data-role='header'>
+		    <a href="#page1" data-role="button" data-icon="home">首页</a>
+			<h1>刀塔2·英雄馆</h1>
+		</div>
+		<div data-role="content">
+            <div class="story">
+            	<img src="hero image/pic10.png">
+            	<h3>兽王</h3>
+                <h3>攻击类型：近战</h3>
+                <h3>定位：先手 - 控制 - 耐久 - 高爆发</h3>
+                <h3>阵营： 天辉</h3>
+                <h3>其他简称：BM</h3>
+
+            </div>
+        </div>
+		
+		<div data-role='footer' data-position="fixed">
+		    <a href="#" data-role="button" data-rel="back">返回</a>  
+			
+			
+		</div>
+	</div>
+
+	<div data-role='page' id="page4" data-theme="a">
+		<div data-role='header'>
+		    <a href="#page1" data-role="button" data-icon="home">首页</a>
+			<h1>刀塔2·英雄馆</h1>
+		</div>
+		<div data-role="content">
+            <div class="story">
+            	<img src="hero image/pic11.png">
+            	<h3>酒仙</h3>
+                <h3>攻击类型：近战</h3>
+                <h3>定位：先手 - 控制 - 耐久 - 高爆发</h3>
+                <h3>阵营： 天辉</h3>
+                <h3>其他简称：熊猫</h3>
+
+            </div>
+        </div>
+		
+		<div data-role='footer' data-position="fixed">
+		    <a href="#" data-role="button" data-rel="back">返回</a>  
+			
+			
+		</div>
+	</div>
+	<div data-role='page' id="page5" data-theme="a">
+		<div data-role='header'>
+		    <a href="#page1" data-role="button" data-icon="home">首页</a>
+			<h1>刀塔2·英雄馆</h1>
+		</div>
+		<div data-role="content">
+            <div class="story">
+            	<img src="hero image/pic12.png">
+            	<h3>钢背兽</h3>
+                <h3>攻击类型：近战</h3>
+                <h3>定位：核心 - 耐久 - 先手 - 高爆发</h3>
+                <h3>阵营： 天辉</h3>
+                <h3>其他简称：钢背，背背猪</h3>
+
+            </div>
+        </div>
+		
+		<div data-role='footer' data-position="fixed">
+		    <a href="#" data-role="button" data-rel="back">返回</a>  
+			
+			
+		</div>
+	</div>
+	<div data-role='page' id="page6" data-theme="a">
+		<div data-role='header'>
+		    <a href="#page1" data-role="button" data-icon="home">首页</a>
+			<h1>刀塔2·英雄馆</h1>
+		</div>
+		<div data-role="content">
+            <div class="story">
+            	<img src="hero image/pic13.png">
+            	<h3>半人马</h3>
+                <h3>攻击类型：近战</h3>
+                <h3>定位：耐久 - 先手 - 控制 - 高爆发 - 逃生</h3>
+                <h3>阵营： 天辉</h3>
+                <h3>其他简称：人马</h3>
+
+            </div>
+        </div>
+		
+		<div data-role='footer' data-position="fixed">
+		    <a href="#" data-role="button" data-rel="back">返回</a>  
+			
+			
+		</div>
+	</div>
+	<div data-role='page' id="page7" data-theme="a">
+		<div data-role='header'>
+		    <a href="#page1" data-role="button" data-icon="home">首页</a>
+			<h1>刀塔2·英雄馆</h1>
+		</div>
+		<div data-role="content">
+            <div class="story">
+            	<img src="hero image/pic14.png">
+            	<h3>混沌骑士</h3>
+                <h3>攻击类型：近战</h3>
+                <h3>定位：核心 - 控制 - 耐久 - 推进 - 先手</h3>
+                <h3>阵营：夜魇</h3>
+                <h3>其他简称：混沌</h3>
+
+            </div>
+        </div>
+		
+		<div data-role='footer' data-position="fixed">
+		    <a href="#" data-role="button" data-rel="back">返回</a>  
+			
+			
+		</div>
+	</div>
+	<div data-role='page' id="page8" data-theme="a">
+		<div data-role='header'>
+		    <a href="#page1" data-role="button" data-icon="home">首页</a>
+			<h1>刀塔2·英雄馆</h1>
+		</div>
+		<div data-role="content">
+            <div class="story">
+            	<img src="hero image/pic15.png">
+            	<h3>末日使者</h3>
+                <h3>攻击类型：近战</h3>
+                <h3>定位：核心 - 控制 - 先手 - 耐久 - 高爆发</h3>
+                <h3>阵营： 夜魇</h3>
+                <h3>其他简称：末日，爸爸</h3>
+
+            </div>
+        </div>
+		
+		<div data-role='footer' data-position="fixed">
+		    <a href="#" data-role="button" data-rel="back">返回</a>  
+			
+			
+		</div>
+	</div>
+	<div data-role='page' id="page9" data-theme="a">
+		<div data-role='header'>
+		    <a href="#page1" data-role="button" data-icon="home">首页</a>
+			<h1>刀塔2·英雄馆</h1>
+		</div>
+		<div data-role="content">
+            <div class="story">
+            	<img src="hero image/pic16.png">
+            	<h3>龙骑士</h3>
+                <h3>攻击类型：近战</h3>
+                <h3>定位：核心 - 推进 - 耐久 - 控制 - 先手 - 高爆发</h3>
+                <h3>阵营： 天辉</h3>
+                <h3>其他简称：龙骑，DK</h3>
+
+            </div>
+        </div>
+		
+		<div data-role='footer' data-position="fixed">
+		    <a href="#" data-role="button" data-rel="back">返回</a>  
+			
+			
+		</div>
+	</div>
+	<div data-role='page' id="page10" data-theme="a">
+		<div data-role='header'>
+		    <a href="#page1" data-role="button" data-icon="home">首页</a>
+			<h1>刀塔2·英雄馆</h1>
+		</div>
+		<div data-role="content">
+            <div class="story">
+            	<img src="hero image/pic17.png">
+            	<h3>大地之灵</h3>
+                <h3>攻击类型：近战</h3>
+                <h3>定位：高爆发 - 逃生 - 控制 - 先手 - 耐久</h3>
+                <h3>阵营： 天辉</h3>
+                <h3>其他简称：土熊猫</h3>
+
+            </div>
+        </div>
+		
+		<div data-role='footer' data-position="fixed">
+		    <a href="#" data-role="button" data-rel="back">返回</a>  
+			
+			
+		</div>
+	</div>
+	<div data-role='page' id="page11" data-theme="a">
+		<div data-role='header'>
+		    <a href="#page1" data-role="button" data-icon="home">首页</a>
+			<h1>刀塔2·英雄馆</h1>
+		</div>
+		<div data-role="content">
+            <div class="story">
+            	<img src="hero image/pic18.png">
+            	<h3>上古巨神</h3>
+                <h3>攻击类型：近战</h3>
+                <h3>定位：先手 - 控制 - 高爆发 - 耐久</h3>
+                <h3>阵营： 天辉</h3>
+                <h3>其他简称：大牛</h3>
+
+            </div>
+        </div>
+		
+		<div data-role='footer' data-position="fixed">
+		    <a href="#" data-role="button" data-rel="back">返回</a>  
+			
+			
+		</div>
+	</div>
+	<div data-role='page' id="page12" data-theme="a">
+		<div data-role='header'>
+		    <a href="#page1" data-role="button" data-icon="home">首页</a>
+			<h1>刀塔2·英雄馆</h1>
+		</div>
+		<div data-role="content">
+            <div class="story">
+            	<img src="hero image/pic19.png">
+            	<h3>哈斯卡</h3>
+                <h3>攻击类型：远程</h3>
+                <h3>定位：核心 - 耐久 - 先手</h3>
+                <h3>阵营： 天辉</h3>
+                <h3>其他简称：神灵、神灵武士</h3>
+
+            </div>
+        </div>
+		
+		<div data-role='footer' data-position="fixed">
+		    <a href="#" data-role="button" data-rel="back">返回</a>  
+			
+			
+		</div>
+	</div>
+	<div data-role='page' id="page13" data-theme="a">
+		<div data-role='header'>
+		    <a href="#page1" data-role="button" data-icon="home">首页</a>
+			<h1>刀塔2·英雄馆</h1>
+		</div>
+		<div data-role="content">
+            <div class="story">
+            	<img src="hero image/pic20.png">
+            	<h3>船长</h3>
+                <h3>攻击类型：近战</h3>
+                <h3>定位：核心 - 控制 - 先手 - 耐久 - 高爆发</h3>
+                <h3>阵营： 天辉</h3>
+                <h3>其他简称：船长</h3>
+
+            </div>
+        </div>
+		
+		<div data-role='footer' data-position="fixed">
+		    <a href="#" data-role="button" data-rel="back">返回</a>  
+			
+			
+		</div>
+	</div>
+	<div data-role='page' id="page14" data-theme="a">
+		<div data-role='header'>
+		    <a href="#page1" data-role="button" data-icon="home">首页</a>
+			<h1>刀塔2·英雄馆</h1>
+		</div>
+		<div data-role="content">
+            <div class="story">
+            	<img src="hero image/pic21.png">
+            	<h3>军团指挥官</h3>
+                <h3>攻击类型：近战</h3>
+                <h3>定位：核心 - 控制 - 先手 - 耐久 - 高爆发</h3>
+                <h3>阵营： 天辉</h3>
+                <h3>其他简称：军团</h3>
+
+            </div>
+        </div>
+		
+		<div data-role='footer' data-position="fixed">
+		    <a href="#" data-role="button" data-rel="back">返回</a>  
+			
+			
+		</div>
+	</div>
+	<div data-role='page' id="page15" data-theme="a">
+		<div data-role='header'>
+		    <a href="#page1" data-role="button" data-icon="home">首页</a>
+			<h1>刀塔2·英雄馆</h1>
+		</div>
+		<div data-role="content">
+            <div class="story">
+            	<img src="hero image/pic22.png">
+            	<h3>噬魂鬼</h3>
+                <h3>攻击类型：近战</h3>
+                <h3>定位：核心 - 耐久 - 打野 - 逃生 - 控制</h3>
+                <h3>阵营： 夜魇</h3>
+                <h3>其他简称：小狗</h3>
+
+            </div>
+        </div>
+		
+		<div data-role='footer' data-position="fixed">
+		    <a href="#" data-role="button" data-rel="back">返回</a>  
+			
+			
+		</div>
+	</div>
+	<div data-role='page' id="page16" data-theme="a">
+		<div data-role='header'>
+		    <a href="#page1" data-role="button" data-icon="home">首页</a>
+			<h1>刀塔2·英雄馆</h1>
+		</div>
+		<div data-role="content">
+            <div class="story">
+            	<img src="hero image/pic23.png">
+            	<h3>狼人</h3>
+                <h3>攻击类型：近战</h3>
+                <h3>定位：核心 - 推进 - 打野 - 耐久 - 逃生</h3>
+                <h3>阵营： 夜魇</h3>
+                <h3>其他简称：Lyc</h3>
+
+            </div>
+        </div>
+		
+		<div data-role='footer' data-position="fixed">
+		    <a href="#" data-role="button" data-rel="back">返回</a>  
+			
+			
+		</div>
+	</div>
+	<div data-role='page' id="page17" data-theme="a">
+		<div data-role='header'>
+		    <a href="#page1" data-role="button" data-icon="home">首页</a>
+			<h1>刀塔2·英雄馆</h1>
+		</div>
+		<div data-role="content">
+            <div class="story">
+            	<img src="hero image/pic24.png">
+            	<h3>马格纳斯</h3>
+                <h3>攻击类型：近战</h3>
+                <h3>定位：先手 - 控制 - 高爆发 - 逃生</h3>
+                <h3>阵营： 夜魇</h3>
+                <h3>其他简称：猛犸</h3>
+
+            </div>
+        </div>
+		
+		<div data-role='footer' data-position="fixed">
+		    <a href="#" data-role="button" data-rel="back">返回</a>  
+			
+			
+		</div>
+	</div>
+	<div data-role='page' id="page18" data-theme="a">
+		<div data-role='header'>
+		    <a href="#page1" data-role="button" data-icon="home">首页</a>
+			<h1>刀塔2·英雄馆</h1>
+		</div>
+		<div data-role="content">
+            <div class="story">
+            	<img src="hero image/pic25.png">
+            	<h3>暗夜魔王</h3>
+                <h3>攻击类型：近战</h3>
+                <h3>定位：核心 - 先手 - 耐久 - 控制 - 高爆发</h3>
+                <h3>阵营： 夜魇</h3>
+                <h3>其他简称：夜魔</h3>
+
+            </div>
+        </div>
+		
+		<div data-role='footer' data-position="fixed">
+		    <a href="#" data-role="button" data-rel="back">返回</a>  
+			
+			
+		</div>
+	</div>
+	<div data-role='page' id="page19" data-theme="a">
+		<div data-role='header'>
+		    <a href="#page1" data-role="button" data-icon="home">首页</a>
+			<h1>刀塔2·英雄馆</h1>
+		</div>
+		<div data-role="content">
+            <div class="story">
+            	<img src="hero image/pic26.png">
+            	<h3>全能骑士</h3>
+                <h3>攻击类型：近战</h3>
+                <h3>定位：辅助 - 耐久 - 高爆发</h3>
+                <h3>阵营： 天辉</h3>
+                <h3>其他简称：全能</h3>
+
+            </div>
+        </div>
+		
+		<div data-role='footer' data-position="fixed">
+		    <a href="#" data-role="button" data-rel="back">返回</a>  
+			
+			
+		</div>
+	</div>
+	<div data-role='page' id="page20" data-theme="a">
+		<div data-role='header'>
+		    <a href="#page1" data-role="button" data-icon="home">首页</a>
+			<h1>刀塔2·英雄馆</h1>
+		</div>
+		<div data-role="content">
+            <div class="story">
+            	<img src="hero image/pic27.png">
+            	<h3>凤凰</h3>
+                <h3>攻击类型：远程</h3>
+                <h3>定位：辅助 - 高爆发 - 先手 - 逃生 - 控制</h3>
+                <h3>阵营： 天辉</h3>
+                <h3>其他简称：凤凰</h3>
+
+            </div>
+        </div>
+		
+		<div data-role='footer' data-position="fixed">
+		    <a href="#" data-role="button" data-rel="back">返回</a>  
+			
+			
+		</div>
+	</div>
+	<div data-role='page' id="page21" data-theme="a">
+		<div data-role='header'>
+		    <a href="#page1" data-role="button" data-icon="home">首页</a>
+			<h1>刀塔2·英雄馆</h1>
+		</div>
+		<div data-role="content">
+            <div class="story">
+            	<img src="hero image/pic28.png">
+            	<h3> 帕吉</h3>
+                <h3>攻击类型：近战</h3>
+                <h3>定位：控制 - 先手 - 耐久 - 高爆发</h3>
+                <h3>阵营：  夜魇</h3>
+                <h3>其他简称：屠夫，胖子</h3>
+
+            </div>
+        </div>
+		
+		<div data-role='footer' data-position="fixed">
+		    <a href="#" data-role="button" data-rel="back">返回</a>  
+			
+			
+		</div>
+	</div>
+	<div data-role='page' id="page22" data-theme="a">
+		<div data-role='header'>
+		    <a href="#page1" data-role="button" data-icon="home">首页</a>
+			<h1>刀塔2·英雄馆</h1>
+		</div>
+		<div data-role="content">
+            <div class="story">
+            	<img src="hero image/pic29.png">
+            	<h3>发条技师</h3>
+                <h3>攻击类型：近战</h3>
+                <h3>定位：先手 - 控制 - 耐久 - 高爆发</h3>
+                <h3>阵营： 天辉</h3>
+                <h3>其他简称：发条、CG</h3>
+
+            </div>
+        </div>
+		
+		<div data-role='footer' data-position="fixed">
+		    <a href="#" data-role="button" data-rel="back">返回</a>  
+			
+			
+		</div>
+	</div>
+	<div data-role='page' id="page23" data-theme="a">
+		<div data-role='header'>
+		    <a href="#page1" data-role="button" data-icon="home">首页</a>
+			<h1>刀塔2·英雄馆</h1>
+		</div>
+		<div data-role="content">
+            <div class="story">
+            	<img src="hero image/pic30.png">
+            	<h3>沙王</h3>
+                <h3>攻击类型：近战</h3>
+                <h3>定位：先手 - 控制 - 高爆发 - 逃生 - 打野</h3>
+                <h3>阵营： 夜魇</h3>
+                <h3>其他简称：SK</h3>
+
+            </div>
+        </div>
+		
+		<div data-role='footer' data-position="fixed">
+		    <a href="#" data-role="button" data-rel="back">返回</a>  
+			
+			
+		</div>
+	</div>
+	<div data-role='page' id="page24" data-theme="a">
+		<div data-role='header'>
+		    <a href="#page1" data-role="button" data-icon="home">首页</a>
+			<h1>刀塔2·英雄馆</h1>
+		</div>
+		<div data-role="content">
+            <div class="story">
+            	<img src="hero image/pic31.png">
+            	<h3>伐木机</h3>
+                <h3>攻击类型：近战</h3>
+                <h3>定位：高爆发 - 耐久 - 逃生</h3>
+                <h3>阵营： 天辉</h3>
+                <h3>其他简称：地精撕裂者</h3>
+
+            </div>
+        </div>
+		
+		<div data-role='footer' data-position="fixed">
+		    <a href="#" data-role="button" data-rel="back">返回</a>  
+			
+			
+		</div>
+	</div>
+	<div data-role='page' id="page25" data-theme="a">
+		<div data-role='header'>
+		    <a href="#page1" data-role="button" data-icon="home">首页</a>
+			<h1>刀塔2·英雄馆</h1>
+		</div>
+		<div data-role="content">
+            <div class="story">
+            	<img src="hero image/pic32.png">
+            	<h3> 斯拉达</h3>
+                <h3>攻击类型：近战</h3>
+                <h3>定位：核心 - 耐久 - 先手 - 控制 - 逃生</h3>
+                <h3>阵营： 夜魇</h3>
+                <h3>其他简称：大鱼人</h3>
+
+            </div>
+        </div>
+		
+		<div data-role='footer' data-position="fixed">
+		    <a href="#" data-role="button" data-rel="back">返回</a>  
+			
+			
+		</div>
+	</div>
+	<div data-role='page' id="page26" data-theme="a">
+		<div data-role='header'>
+		    <a href="#page1" data-role="button" data-icon="home">首页</a>
+			<h1>刀塔2·英雄馆</h1>
+		</div>
+		<div data-role="content">
+            <div class="story">
+            	<img src="hero image/pic33.png">
+            	<h3>裂魂人</h3>
+                <h3>攻击类型：近战</h3>
+                <h3>定位：核心 - 先手 - 控制 - 耐久 - 逃生</h3>
+                <h3>阵营： 夜魇</h3>
+                <h3>其他简称：白牛，SB</h3>
+
+            </div>
+        </div>
+		
+		<div data-role='footer' data-position="fixed">
+		    <a href="#" data-role="button" data-rel="back">返回</a>  
+			
+			
+		</div>
+	</div>
+	<div data-role='page' id="page27" data-theme="a">
+		<div data-role='header'>
+		    <a href="#page1" data-role="button" data-icon="home">首页</a>
+			<h1>刀塔2·英雄馆</h1>
+		</div>
+		<div data-role="content">
+            <div class="story">
+            	<img src="hero image/pic34.png">
+            	<h3>斯温</h3>
+                <h3>攻击类型：近战</h3>
+                <h3>定位：核心 - 控制 - 先手 - 耐久 - 高爆发</h3>
+                <h3>阵营： 天辉</h3>
+                <h3>其他简称：SV，流浪</h3>
+
+            </div>
+        </div>
+		
+		<div data-role='footer' data-position="fixed">
+		    <a href="#" data-role="button" data-rel="back">返回</a>  
+			
+			
+		</div>
+	</div>
+	<div data-role='page' id="page28" data-theme="a">
+		<div data-role='header'>
+		    <a href="#page1" data-role="button" data-icon="home">首页</a>
+			<h1>刀塔2·英雄馆</h1>
+		</div>
+		<div data-role="content">
+            <div class="story">
+            	<img src="hero image/pic35.png">
+            	<h3> 潮汐猎人</h3>
+                <h3>攻击类型：近战</h3>
+                <h3>定位：先手 - 耐久 - 控制 - 高爆发</h3>
+                <h3>阵营： 夜魇</h3>
+                <h3>其他简称：潮汐、TH</h3>
+
+            </div>
+        </div>
+		
+		<div data-role='footer' data-position="fixed">
+		    <a href="#" data-role="button" data-rel="back">返回</a>  
+			
+			
+		</div>
+	</div>
+	<div data-role='page' id="page29" data-theme="a">
+		<div data-role='header'>
+		    <a href="#page1" data-role="button" data-icon="home">首页</a>
+			<h1>刀塔2·英雄馆</h1>
+		</div>
+		<div data-role="content">
+            <div class="story">
+            	<img src="hero image/pic36.png">
+            	<h3>小小</h3>
+                <h3>攻击类型：近战</h3>
+                <h3>定位：核心 - 高爆发 - 推进 - 先手 - 耐久 - 控制 -</h3>
+                <h3>阵营： 天辉</h3>
+                <h3>其他简称：山岭</h3>
+
+            </div>
+        </div>
+		
+		<div data-role='footer' data-position="fixed">
+		    <a href="#" data-role="button" data-rel="back">返回</a>  
+			
+			
+		</div>
+	</div>
+	<div data-role='page' id="page30" data-theme="a">
+		<div data-role='header'>
+		    <a href="#page1" data-role="button" data-icon="home">首页</a>
+			<h1>刀塔2·英雄馆</h1>
+		</div>
+		<div data-role="content">
+            <div class="story">
+            	<img src="hero image/pic37.png">
+            	<h3>树精卫士</h3>
+                <h3>攻击类型：近战</h3>
+                <h3>定位：辅助 - 先手 - 耐久 - 控制 - 逃生</h3>
+                <h3>阵营： 天辉</h3>
+                <h3>其他简称：大树</h3>
+
+            </div>
+        </div>
+		
+		<div data-role='footer' data-position="fixed">
+		    <a href="#" data-role="button" data-rel="back">返回</a>  
+			
+			
+		</div>
+	</div>
+	<div data-role='page' id="page31" data-theme="a">
+		<div data-role='header'>
+		    <a href="#page1" data-role="button" data-icon="home">首页</a>
+			<h1>刀塔2·英雄馆</h1>
+		</div>
+		<div data-role="content">
+            <div class="story">
+            	<img src="hero image/pic38.png">
+            	<h3>巨牙海民</h3>
+                <h3>攻击类型：近战</h3>
+                <h3>定位：先手 - 控制 - 高爆发</h3>
+                <h3>阵营： 天辉</h3>
+                <h3>其他简称：海民</h3>
+
+            </div>
+        </div>
+		
+		<div data-role='footer' data-position="fixed">
+		    <a href="#" data-role="button" data-rel="back">返回</a>  
+			
+			
+		</div>
+	</div>
+	<div data-role='page' id="page32" data-theme="a">
+		<div data-role='header'>
+		    <a href="#page1" data-role="button" data-icon="home">首页</a>
+			<h1>刀塔2·英雄馆</h1>
+		</div>
+		<div data-role="content">
+            <div class="story">
+            	<img src="hero image/pic39.png">
+            	<h3>不朽尸王</h3>
+                <h3>攻击类型：近战</h3>
+                <h3>定位：辅助 - 耐久 - 控制 - 高爆发</h3>
+                <h3>阵营： 夜魇</h3>
+                <h3>其他简称：尸王</h3>
+
+            </div>
+        </div>
+		
+		<div data-role='footer' data-position="fixed">
+		    <a href="#" data-role="button" data-rel="back">返回</a>  
+			
+			
+		</div>
+	</div>
+	<div data-role='page' id="page33" data-theme="a">
+		<div data-role='header'>
+		    <a href="#page1" data-role="button" data-icon="home">首页</a>
+			<h1>刀塔2·英雄馆</h1>
+		</div>
+		<div data-role="content">
+            <div class="story">
+            	<img src="hero image/pic40.png">
+            	<h3>艾欧</h3>
+                <h3>攻击类型：远程</h3>
+                <h3>定位：辅助 - 逃生 - 高爆发</h3>
+                <h3>阵营： 天辉</h3>
+                <h3>其他简称：小精灵</h3>
+
+            </div>
+        </div>
+		
+		<div data-role='footer' data-position="fixed">
+		    <a href="#" data-role="button" data-rel="back">返回</a>  
+			
+			
+		</div>
+	</div>
+	<div data-role='page' id="page34" data-theme="a">
+		<div data-role='header'>
+		    <a href="#page1" data-role="button" data-icon="home">首页</a>
+			<h1>刀塔2·英雄馆</h1>
+		</div>
+		<div data-role="content">
+            <div class="story">
+            	<img src="hero image/pic41.png">
+            	<h3>冥魂大帝</h3>
+                <h3>攻击类型：近战</h3>
+                <h3>定位：核心 - 辅助 - 耐久 - 控制 - 先手</h3>
+                <h3>阵营： 夜魇</h3>
+                <h3>其他简称：SNK、骷髅王</h3>
+
+            </div>
+        </div>
+		
+		<div data-role='footer' data-position="fixed">
+		    <a href="#" data-role="button" data-rel="back">返回</a>  
+			
+			
+		</div>
+	</div>
+	<div data-role='page' id="page35" data-theme="a">
+		<div data-role='header'>
+		    <a href="#page1" data-role="button" data-icon="home">首页</a>
+			<h1>刀塔2·英雄馆</h1>
+		</div>
+		<div data-role="content">
+            <div class="story">
+            	<img src="hero image/pic6.png">
+            	<h3>撼地者</h3>
+                <h3>攻击类型：近战</h3>
+                <h3>定位：辅助 - 先手 - 控制 - 高爆发</h3>
+                <h3>阵营： 天辉</h3>
+                <h3>其他简称：小牛，牛，神牛，撼地神牛</h3>
+
+            </div>
+        </div>
+		
+		<div data-role='footer' data-position="fixed">
+		    <a href="#" data-role="button" data-rel="back">返回</a>  
+			
+			
+		</div>
+	</div>
+	<div data-role='page' id="page36" data-theme="a">
+		<div data-role='header'>
+		    <a href="#page1" data-role="button" data-icon="home">首页</a>
+			<h1>刀塔2·英雄馆</h1>
+		</div>
+		<div data-role="content">
+            <div class="story">
+            	<img src="hero image/pic7.png">
+            	<h3>亚巴顿</h3>
+                <h3>攻击类型：近战</h3>
+                <h3>定位：辅助 - 核心 - 耐久</h3>
+                <h3>阵营： 夜魇</h3>
+                <h3>其他简称：死骑</h3>
+
+            </div>
+        </div>
+		
+		<div data-role='footer' data-position="fixed">
+		    <a href="#" data-role="button" data-rel="back">返回</a>  
+			
+			
+		</div>
+	</div>
+	<div data-role='page' id="page37" data-theme="a">
+		<div data-role='header'>
+		    <a href="#page1" data-role="button" data-icon="home">首页</a>
+			<h1>刀塔2·英雄馆</h1>
+		</div>
+		<div data-role="content">
+            <div class="story">
+            	<img src="hero image/pic8.png">
+            	<h3>炼金术士</h3>
+                <h3>攻击类型：近战</h3>
+                <h3>定位：核心 - 辅助 - 耐久 - 控制 - 先手 - 高爆发</h3>
+                <h3>阵营： 天辉</h3>
+                <h3>其他简称：炼金</h3>
+
+            </div>
+        </div>
+		
+		<div data-role='footer' data-position="fixed">
+		    <a href="#" data-role="button" data-rel="back">返回</a>  
+			
+			
+		</div>
+	</div>
+	<div data-role='page' id="page38" data-theme="a">
+		<div data-role='header'>
+		    <a href="#page1" data-role="button" data-icon="home">首页</a>
+			<h1>刀塔2·英雄馆</h1>
+		</div>
+		<div data-role="content">
+            <div class="story">
+            	<img src="hero image/pic9.png">
+            	<h3>斧王</h3>
+                <h3>攻击类型：近战</h3>
+                <h3>定位：先手 - 耐久 - 控制 - 打野</h3>
+                <h3>阵营： 夜魇</h3>
+                <h3>其他简称：蒙哥可汗、Mogul Khan、Axe</h3>
+
+            </div>
+        </div>
+		
+		<div data-role='footer' data-position="fixed">
+		    <a href="#" data-role="button" data-rel="back">返回</a>  
+			
+			
+		</div>
+	</div>
+	<div data-role='page' id="page39" data-theme="a">
+		<div data-role='header'>
+		    <a href="#page1" data-role="button" data-icon="home">首页</a>
+			<h1>刀塔2·英雄馆</h1>
+		</div>
+		<div data-role="content">
+            <div class="story">
+            	<img src="hero image/pic42.png">
+            	<h3>敌法师</h3>
+                <h3>攻击类型：近战</h3>
+                <h3>定位：核心 - 逃生 - 高爆发</h3>
+                <h3>阵营： 天辉</h3>
+                <h3>其他简称：AM、敌法</h3>
+
+            </div>
+        </div>
+		
+		<div data-role='footer' data-position="fixed">
+		    <a href="#" data-role="button" data-rel="back">返回</a>  
+			
+			
+		</div>
+	</div>
+	<div data-role='page' id="page40" data-theme="a">
+		<div data-role='header'>
+		    <a href="#page1" data-role="button" data-icon="home">首页</a>
+			<h1>刀塔2·英雄馆</h1>
+		</div>
+		<div data-role="content">
+            <div class="story">
+            	<img src="hero image/pic43.png">
+            	<h3>天穹守望者</h3>
+                <h3>攻击类型：远程</h3>
+                <h3>定位：核心 - 逃生 - 高爆发</h3>
+                <h3>阵营： 夜魇</h3>
+                <h3>其他简称：弧光守望者、电狗</h3>
+
+            </div>
+        </div>
+		
+		<div data-role='footer' data-position="fixed">
+		    <a href="#" data-role="button" data-rel="back">返回</a>  
+			
+			
+		</div>
+	</div>
+	<div data-role='page' id="page41" data-theme="a">
+		<div data-role='header'>
+		    <a href="#page1" data-role="button" data-icon="home">首页</a>
+			<h1>刀塔2·英雄馆</h1>
+		</div>
+		<div data-role="content">
+            <div class="story">
+            	<img src="hero image/pic44.png">
+            	<h3>嗜血狂魔</h3>
+                <h3>攻击类型：近战</h3>
+                <h3>定位：核心 - 控制 - 打野 - 高爆发 - 先手</h3>
+                <h3>阵营： 夜魇</h3>
+                <h3>其他简称：BS</h3>
+
+            </div>
+        </div>
+		
+		<div data-role='footer' data-position="fixed">
+		    <a href="#" data-role="button" data-rel="back">返回</a>  
+			
+			
+		</div>
+	</div>
+	<div data-role='page' id="page42" data-theme="a">
+		<div data-role='header'>
+		    <a href="#page1" data-role="button" data-icon="home">首页</a>
+			<h1>刀塔2·英雄馆</h1>
+		</div>
+		<div data-role="content">
+            <div class="story">
+            	<img src="hero image/pic45.png">
+            	<h3>赏金猎人</h3>
+                <h3>攻击类型：近战</h3>
+                <h3>定位：逃生 - 高爆发</h3>
+                <h3>阵营： 天辉</h3>
+                <h3>其他简称：赏金,BH</h3>
+
+            </div>
+        </div>
+		
+		<div data-role='footer' data-position="fixed">
+		    <a href="#" data-role="button" data-rel="back">返回</a>  
+			
+			
+		</div>
+	</div>
+	<div data-role='page' id="page43" data-theme="a">
+		<div data-role='header'>
+		    <a href="#page1" data-role="button" data-icon="home">首页</a>
+			<h1>刀塔2·英雄馆</h1>
+		</div>
+		<div data-role="content">
+            <div class="story">
+            	<img src="hero image/pic46.png">
+            	<h3>育母蜘蛛</h3>
+                <h3>攻击类型：近战</h3>
+                <h3>定位：核心 - 推进 - 逃生 - 高爆发</h3>
+                <h3>阵营： 夜魇</h3>
+                <h3>其他简称：蜘蛛</h3>
+
+            </div>
+        </div>
+		
+		<div data-role='footer' data-position="fixed">
+		    <a href="#" data-role="button" data-rel="back">返回</a>  
+			
+			
+		</div>
+	</div>
+	<div data-role='page' id="page44" data-theme="a">
+		<div data-role='header'>
+		    <a href="#page1" data-role="button" data-icon="home">首页</a>
+			<h1>刀塔2·英雄馆</h1>
+		</div>
+		<div data-role="content">
+            <div class="story">
+            	<img src="hero image/pic47.png">
+            	<h3>克林克兹</h3>
+                <h3>攻击类型：远程</h3>
+                <h3>定位：核心 - 逃生 - 推进</h3>
+                <h3>阵营： 夜魇</h3>
+                <h3>其他简称：骨弓</h3>
+
+            </div>
+        </div>
+		
+		<div data-role='footer' data-position="fixed">
+		    <a href="#" data-role="button" data-rel="back">返回</a>  
+			
+			
+		</div>
+	</div>
+	<div data-role='page' id="page45" data-theme="a">
+		<div data-role='header'>
+		    <a href="#page1" data-role="button" data-icon="home">首页</a>
+			<h1>刀塔2·英雄馆</h1>
+		</div>
+		<div data-role="content">
+            <div class="story">
+            	<img src="hero image/pic48.png">
+            	<h3>卓尔游侠</h3>
+                <h3>攻击类型：远程</h3>
+                <h3>定位：核心 - 控制 - 推进</h3>
+                <h3>阵营： 天辉</h3>
+                <h3>其他简称：小黑、崔希丝</h3>
+
+            </div>
+        </div>
+		
+		<div data-role='footer' data-position="fixed">
+		    <a href="#" data-role="button" data-rel="back">返回</a>  
+			
+			
+		</div>
+	</div>
+	<div data-role='page' id="page46" data-theme="a">
+		<div data-role='header'>
+		    <a href="#page1" data-role="button" data-icon="home">首页</a>
+			<h1>刀塔2·英雄馆</h1>
+		</div>
+		<div data-role="content">
+            <div class="story">
+            	<img src="hero image/pic49.png">
+            	<h3>灰烬之灵</h3>
+                <h3>攻击类型：近战</h3>
+                <h3>定位：核心 - 逃生 - 高爆发 - 控制 - 先手</h3>
+                <h3>阵营： 天辉</h3>
+                <h3>其他简称：火熊猫</h3>
+
+            </div>
+        </div>
+		
+		<div data-role='footer' data-position="fixed">
+		    <a href="#" data-role="button" data-rel="back">返回</a>  
+			
+			
+		</div>
+	</div><div data-role='page' id="page47" data-theme="a">
+		<div data-role='header'>
+		    <a href="#page1" data-role="button" data-icon="home">首页</a>
+			<h1>刀塔2·英雄馆</h1>
+		</div>
+		<div data-role="content">
+            <div class="story">
+            	<img src="hero image/pic50.png">
+            	<h3>虚空假面</h3>
+                <h3>攻击类型：近战</h3>
+                <h3>定位：核心 - 先手 - 控制 - 逃生 - 耐久</h3>
+                <h3>阵营： 夜魇</h3>
+                <h3>其他简称：虚空</h3>
+
+            </div>
+        </div>
+		
+		<div data-role='footer' data-position="fixed">
+		    <a href="#" data-role="button" data-rel="back">返回</a>  
+			
+			
+		</div>
+	</div>
+	<div data-role='page' id="page48" data-theme="a">
+		<div data-role='header'>
+		    <a href="#page1" data-role="button" data-icon="home">首页</a>
+			<h1>刀塔2·英雄馆</h1>
+		</div>
+		<div data-role="content">
+            <div class="story">
+            	<img src="hero image/pic51.png">
+            	<h3>矮人直升机</h3>
+                <h3>攻击类型：远程</h3>
+                <h3>定位：核心 - 高爆发 - 控制</h3>
+                <h3>阵营： 天辉</h3>
+                <h3>其他简称：飞机</h3>
+
+            </div>
+        </div>
+		
+		<div data-role='footer' data-position="fixed">
+		    <a href="#" data-role="button" data-rel="back">返回</a>  
+			
+			
+		</div>
+	</div>
+	<div data-role='page' id="page49" data-theme="a">
+		<div data-role='header'>
+		    <a href="#page1" data-role="button" data-icon="home">首页</a>
+			<h1>刀塔2·英雄馆</h1>
+		</div>
+		<div data-role="content">
+            <div class="story">
+            	<img src="hero image/pic52.png">
+            	<h3>主宰</h3>
+                <h3>攻击类型：近战</h3>
+                <h3>定位：核心 - 推进 - 逃生</h3>
+                <h3>阵营： 天辉</h3>
+                <h3>其他简称：剑圣</h3>
+
+            </div>
+        </div>
+		
+		<div data-role='footer' data-position="fixed">
+		    <a href="#" data-role="button" data-rel="back">返回</a>  
+			
+			
+		</div>
+	</div>
+	<div data-role='page' id="page50" data-theme="a">
+		<div data-role='header'>
+		    <a href="#page1" data-role="button" data-icon="home">首页</a>
+			<h1>刀塔2·英雄馆</h1>
+		</div>
+		<div data-role="content">
+            <div class="story">
+            	<img src="hero image/pic53.png">
+            	<h3>德鲁伊</h3>
+                <h3>攻击类型：近战</h3>
+                <h3>定位：核心 - 推进 - 打野 - 耐久</h3>
+                <h3>阵营： 天辉</h3>
+                <h3>其他简称：LD、熊德、DLY、小德</h3>
+
+            </div>
+        </div>
+		
+		<div data-role='footer' data-position="fixed">
+		    <a href="#" data-role="button" data-rel="back">返回</a>  
+			
+			
+		</div>
+	</div>
+	<div data-role='page' id="page51" data-theme="a">
+		<div data-role='header'>
+		    <a href="#page1" data-role="button" data-icon="home">首页</a>
+			<h1>刀塔2·英雄馆</h1>
+		</div>
+		<div data-role="content">
+            <div class="story">
+            	<img src="hero image/pic54.png">
+            	<h3>露娜</h3>
+                <h3>攻击类型：远程</h3>
+                <h3>定位：核心 - 高爆发 - 推进</h3>
+                <h3>阵营： 天辉</h3>
+                <h3>其他简称：月骑</h3>
+
+            </div>
+        </div>
+		
+		<div data-role='footer' data-position="fixed">
+		    <a href="#" data-role="button" data-rel="back">返回</a>  
+			
+			
+		</div>
+	</div>
+	<div data-role='page' id="page52" data-theme="a">
+		<div data-role='header'>
+		    <a href="#page1" data-role="button" data-icon="home">首页</a>
+			<h1>刀塔2·英雄馆</h1>
+		</div>
+		<div data-role="content">
+            <div class="story">
+            	<img src="hero image/pic55.png">
+            	<h3>美杜莎</h3>
+                <h3>攻击类型：远程</h3>
+                <h3>定位：核心 - 控制 - 耐久</h3>
+                <h3>阵营： 夜魇</h3>
+                <h3>其他简称：1姐</h3>
+
+            </div>
+        </div>
+		
+		<div data-role='footer' data-position="fixed">
+		    <a href="#" data-role="button" data-rel="back">返回</a>  
+			
+			
+		</div>
+	</div>
+	<div data-role='page' id="page53" data-theme="a">
+		<div data-role='header'>
+		    <a href="#page1" data-role="button" data-icon="home">首页</a>
+			<h1>刀塔2·英雄馆</h1>
+		</div>
+		<div data-role="content">
+            <div class="story">
+            	<img src="hero image/pic56.png">
+            	<h3>米波</h3>
+                <h3>攻击类型：近战</h3>
+                <h3>定位：核心 - 逃生 - 高爆发 - 控制 - 先手 - 推进</h3>
+                <h3>阵营： 夜魇</h3>
+                <h3>其他简称：地卜</h3>
+
+            </div>
+        </div>
+		
+		<div data-role='footer' data-position="fixed">
+		    <a href="#" data-role="button" data-rel="back">返回</a>  
+			
+			
+		</div>
+	</div>
+	<div data-role='page' id="page54" data-theme="a">
+		<div data-role='header'>
+		    <a href="#page1" data-role="button" data-icon="home">首页</a>
+			<h1>刀塔2·英雄馆</h1>
+		</div>
+		<div data-role="content">
+            <div class="story">
+            	<img src="hero image/pic57.png">
+            	<h3>米拉娜</h3>
+                <h3>攻击类型：远程</h3>
+                <h3>定位：核心 - 辅助 - 逃生 - 高爆发 - 控制</h3>
+                <h3>阵营： 天辉</h3>
+                <h3>其他简称：白虎，虎妞，月女</h3>
+
+            </div>
+        </div>
+		
+		<div data-role='footer' data-position="fixed">
+		    <a href="#" data-role="button" data-rel="back">返回</a>  
+			
+			
+		</div>
+	</div>
+	<div data-role='page' id="page55" data-theme="a">
+		<div data-role='header'>
+		    <a href="#page1" data-role="button" data-icon="home">首页</a>
+			<h1>刀塔2·英雄馆</h1>
+		</div>
+		<div data-role="content">
+            <div class="story">
+            	<img src="hero image/pic58.png">
+            	<h3>变体精灵</h3>
+                <h3>攻击类型：远程</h3>
+                <h3>定位：核心 - 逃生 - 耐久 - 高爆发 - 控制</h3>
+                <h3>阵营： 天辉</h3>
+                <h3>其他简称：水人</h3>
+
+            </div>
+        </div>
+		
+		<div data-role='footer' data-position="fixed">
+		    <a href="#" data-role="button" data-rel="back">返回</a>  
+			
+			
+		</div>
+	</div>
+	<div data-role='page' id="page56" data-theme="a">
+		<div data-role='header'>
+		    <a href="#page1" data-role="button" data-icon="home">首页</a>
+			<h1>刀塔2·英雄馆</h1>
+		</div>
+		<div data-role="content">
+            <div class="story">
+            	<img src="hero image/pic59.png">
+            	<h3>娜迦海妖</h3>
+                <h3>攻击类型：近战</h3>
+                <h3>定位：核心 - 辅助 - 推进 - 控制 - 先手 - 逃生</h3>
+                <h3>阵营： 夜魇</h3>
+                <h3>其他简称：小娜迦</h3>
+
+            </div>
+        </div>
+		
+		<div data-role='footer' data-position="fixed">
+		    <a href="#" data-role="button" data-rel="back">返回</a>  
+			
+			
+		</div>
+	</div>
+	<div data-role='page' id="page57" data-theme="a">
+		<div data-role='header'>
+		    <a href="#page1" data-role="button" data-icon="home">首页</a>
+			<h1>刀塔2·英雄馆</h1>
+		</div>
+		<div data-role="content">
+            <div class="story">
+            	<img src="hero image/pic60.png">
+            	<h3>影魔</h3>
+                <h3>攻击类型：远程</h3>
+                <h3>定位：核心 - 高爆发</h3>
+                <h3>阵营： 夜魇</h3>
+                <h3>其他简称：SF</h3>
+
+            </div>
+        </div>
+		
+		<div data-role='footer' data-position="fixed">
+		    <a href="#" data-role="button" data-rel="back">返回</a>  
+			
+			
+		</div>
+	</div>
+	<div data-role='page' id="page58" data-theme="a">
+		<div data-role='header'>
+		    <a href="#page1" data-role="button" data-icon="home">首页</a>
+			<h1>刀塔2·英雄馆</h1>
+		</div>
+		<div data-role="content">
+            <div class="story">
+            	<img src="hero image/pic61.png">
+            	<h3>司夜刺客</h3>
+                <h3>攻击类型：近战</h3>
+                <h3>定位：控制 - 高爆发 - 先手 - 逃生</h3>
+                <h3>阵营： 夜魇</h3>
+                <h3>其他简称：NA，小强</h3>
+
+            </div>
+        </div>
+		
+		<div data-role='footer' data-position="fixed">
+		    <a href="#" data-role="button" data-rel="back">返回</a>  
+			
+			
+		</div>
+	</div>
+	<div data-role='page' id="page59" data-theme="a">
+		<div data-role='header'>
+		    <a href="#page1" data-role="button" data-icon="home">首页</a>
+			<h1>刀塔2·英雄馆</h1>
+		</div>
+		<div data-role="content">
+            <div class="story">
+            	<img src="hero image/pic62.png">
+            	<h3>幻影刺客</h3>
+                <h3>攻击类型：近战</h3>
+                <h3>定位：核心 - 逃生</h3>
+                <h3>阵营： 夜魇</h3>
+                <h3>其他简称：PA、幻刺、魅影之纱</h3>
+
+            </div>
+        </div>
+		
+		<div data-role='footer' data-position="fixed">
+		    <a href="#" data-role="button" data-rel="back">返回</a>  
+			
+			
+		</div>
+	</div>
+	<div data-role='page' id="page60" data-theme="a">
+		<div data-role='header'>
+		    <a href="#page1" data-role="button" data-icon="home">首页</a>
+			<h1>刀塔2·英雄馆</h1>
+		</div>
+		<div data-role="content">
+            <div class="story">
+            	<img src="hero image/pic63.png">
+            	<h3>幻影长矛手</h3>
+                <h3>攻击类型：近战</h3>
+                <h3>定位：核心 - 逃生 - 推进 - 高爆发</h3>
+                <h3>阵营： 天辉</h3>
+                <h3>其他简称：猴子、阿兹瑞斯</h3>
+
+            </div>
+        </div>
+		
+		<div data-role='footer' data-position="fixed">
+		    <a href="#" data-role="button" data-rel="back">返回</a>  
+			
+			
+		</div>
+	</div>
+	<div data-role='page' id="page61" data-theme="a">
+		<div data-role='header'>
+		    <a href="#page1" data-role="button" data-icon="home">首页</a>
+			<h1>刀塔2·英雄馆</h1>
+		</div>
+		<div data-role="content">
+            <div class="story">
+            	<img src="hero image/pic64.png">
+            	<h3>剃刀</h3>
+                <h3>攻击类型：远程</h3>
+                <h3>定位：核心 - 耐久 - 高爆发 - 推进</h3>
+                <h3>阵营： 夜魇</h3>
+                <h3>其他简称：电棍</h3>
+
+            </div>
+        </div>
+		
+		<div data-role='footer' data-position="fixed">
+		    <a href="#" data-role="button" data-rel="back">返回</a>  
+			
+			
+		</div>
+	</div>
+	<div data-role='page' id="page62" data-theme="a">
+		<div data-role='header'>
+		    <a href="#page1" data-role="button" data-icon="home">首页</a>
+			<h1>刀塔2·英雄馆</h1>
+		</div>
+		<div data-role="content">
+            <div class="story">
+            	<img src="hero image/pic65.png">
+            	<h3>力丸</h3>
+                <h3>攻击类型：近战</h3>
+                <h3>定位：核心 - 逃生 - 控制</h3>
+                <h3>阵营： 天辉</h3>
+                <h3>其他简称：隐刺</h3>
+
+            </div>
+        </div>
+		
+		<div data-role='footer' data-position="fixed">
+		    <a href="#" data-role="button" data-rel="back">返回</a>  
+			
+			
+		</div>
+	</div>
+	<div data-role='page' id="page63" data-theme="a">
+		<div data-role='header'>
+		    <a href="#page1" data-role="button" data-icon="home">首页</a>
+			<h1>刀塔2·英雄馆</h1>
+		</div>
+		<div data-role="content">
+            <div class="story">
+            	<img src="hero image/pic66.png">
+            	<h3>斯拉克</h3>
+                <h3>攻击类型：近战</h3>
+                <h3>定位：核心 - 逃生 - 控制 - 高爆发</h3>
+                <h3>阵营： 夜魇</h3>
+                <h3>其他简称：小鱼人</h3>
+
+            </div>
+        </div>
+		
+		<div data-role='footer' data-position="fixed">
+		    <a href="#" data-role="button" data-rel="back">返回</a>  
+			
+			
+		</div>
+	</div>
+	<div data-role='page' id="page64" data-theme="a">
+		<div data-role='header'>
+		    <a href="#page1" data-role="button" data-icon="home">首页</a>
+			<h1>刀塔2·英雄馆</h1>
+		</div>
+		<div data-role="content">
+            <div class="story">
+            	<img src="hero image/pic67.png">
+            	<h3>狙击手</h3>
+                <h3>攻击类型：远程</h3>
+                <h3>定位：核心 - 高爆发</h3>
+                <h3>阵营： 天辉</h3>
+                <h3>其他简称：火枪，传说哥</h3>
+
+            </div>
+        </div>
+		
+		<div data-role='footer' data-position="fixed">
+		    <a href="#" data-role="button" data-rel="back">返回</a>  
+			
+			
+		</div>
+	</div>
+	<div data-role='page' id="page65" data-theme="a">
+		<div data-role='header'>
+		    <a href="#page1" data-role="button" data-icon="home">首页</a>
+			<h1>刀塔2·英雄馆</h1>
+		</div>
+		<div data-role="content">
+            <div class="story">
+            	<img src="hero image/pic68.png">
+            	<h3>幽鬼</h3>
+                <h3>攻击类型：近战</h3>
+                <h3>定位：核心 - 耐久 - 逃生</h3>
+                <h3>阵营： 夜魇</h3>
+                <h3>其他简称：Spe</h3>
+
+            </div>
+        </div>
+		
+		<div data-role='footer' data-position="fixed">
+		    <a href="#" data-role="button" data-rel="back">返回</a>  
+			
+			
+		</div>
+	</div>
+	<div data-role='page' id="page66" data-theme="a">
+		<div data-role='header'>
+		    <a href="#page1" data-role="button" data-icon="home">首页</a>
+			<h1>刀塔2·英雄馆</h1>
+		</div>
+		<div data-role="content">
+            <div class="story">
+            	<img src="hero image/pic69.png">
+            	<h3>圣堂刺客</h3>
+                <h3>攻击类型：远程</h3>
+                <h3>定位：核心 - 逃生</h3>
+                <h3>阵营： 天辉</h3>
+                <h3>其他简称：TA，圣堂</h3>
+
+            </div>
+        </div>
+		
+		<div data-role='footer' data-position="fixed">
+		    <a href="#" data-role="button" data-rel="back">返回</a>  
+			
+			
+		</div>
+	</div>
+	<div data-role='page' id="page67" data-theme="a">
+		<div data-role='header'>
+		    <a href="#page1" data-role="button" data-icon="home">首页</a>
+			<h1>刀塔2·英雄馆</h1>
+		</div>
+		<div data-role="content">
+            <div class="story">
+            	<img src="hero image/pic70.png">
+            	<h3>恐怖利刃</h3>
+                <h3>攻击类型：近战</h3>
+                <h3>定位：核心 - 推进 - 高爆发</h3>
+                <h3>阵营： 夜魇</h3>
+                <h3>其他简称：TB、魂守</h3>
+
+            </div>
+        </div>
+		
+		<div data-role='footer' data-position="fixed">
+		    <a href="#" data-role="button" data-rel="back">返回</a>  
+			
+			
+		</div>
+	</div>
+	<div data-role='page' id="page68" data-theme="a">
+		<div data-role='header'>
+		    <a href="#page1" data-role="button" data-icon="home">首页</a>
+			<h1>刀塔2·英雄馆</h1>
+		</div>
+		<div data-role="content">
+            <div class="story">
+            	<img src="hero image/pic71.png">
+            	<h3>巨魔战将</h3>
+                <h3>攻击类型：远程</h3>
+                <h3>定位：核心 - 推进 - 控制 - 耐久</h3>
+                <h3>阵营： 天辉</h3>
+                <h3>其他简称：巨魔</h3>
+
+            </div>
+        </div>
+		
+		<div data-role='footer' data-position="fixed">
+		    <a href="#" data-role="button" data-rel="back">返回</a>  
+			
+			
+		</div>
+	</div>
+	<div data-role='page' id="page69" data-theme="a">
+		<div data-role='header'>
+		    <a href="#page1" data-role="button" data-icon="home">首页</a>
+			<h1>刀塔2·英雄馆</h1>
+		</div>
+		<div data-role="content">
+            <div class="story">
+            	<img src="hero image/pic72.png">
+            	<h3>熊战士</h3>
+                <h3>攻击类型：近战</h3>
+                <h3>定位：核心 - 打野 - 耐久 - 控制</h3>
+                <h3>阵营： 天辉</h3>
+                <h3>其他简称：拍拍熊</h3>
+
+            </div>
+        </div>
+		
+		<div data-role='footer' data-position="fixed">
+		    <a href="#" data-role="button" data-rel="back">返回</a>  
+			
+			
+		</div>
+	</div>
+	<div data-role='page' id="page70" data-theme="a">
+		<div data-role='header'>
+		    <a href="#page1" data-role="button" data-icon="home">首页</a>
+			<h1>刀塔2·英雄馆</h1>
+		</div>
+		<div data-role="content">
+            <div class="story">
+            	<img src="hero image/pic73.png">
+            	<h3>复仇之魂</h3>
+                <h3>攻击类型：远程</h3>
+                <h3>定位：辅助 - 先手 - 控制 - 高爆发 - 逃生</h3>
+                <h3>阵营： 天辉</h3>
+                <h3>其他简称：VS、仙德尔莎?丝木</h3>
+
+            </div>
+        </div>
+		
+		<div data-role='footer' data-position="fixed">
+		    <a href="#" data-role="button" data-rel="back">返回</a>  
+			
+			
+		</div>
+	</div>
+	<div data-role='page' id="page71" data-theme="a">
+		<div data-role='header'>
+		    <a href="#page1" data-role="button" data-icon="home">首页</a>
+			<h1>刀塔2·英雄馆</h1>
+		</div>
+		<div data-role="content">
+            <div class="story">
+            	<img src="hero image/pic74.png">
+            	<h3>剧毒术士</h3>
+                <h3>攻击类型：远程</h3>
+                <h3>定位：辅助 - 高爆发 - 先手 - 推进 - 控制</h3>
+                <h3>阵营： 夜魇</h3>
+                <h3>其他简称：剧毒</h3>
+
+            </div>
+        </div>
+		
+		<div data-role='footer' data-position="fixed">
+		    <a href="#" data-role="button" data-rel="back">返回</a>  
+			
+			
+		</div>
+	</div>
+	<div data-role='page' id="page72" data-theme="a">
+		<div data-role='header'>
+		    <a href="#page1" data-role="button" data-icon="home">首页</a>
+			<h1>刀塔2·英雄馆</h1>
+		</div>
+		<div data-role="content">
+            <div class="story">
+            	<img src="hero image/pic75.png">
+            	<h3>冥界亚龙</h3>
+                <h3>攻击类型：远程</h3>
+                <h3>定位：核心 - 耐久 - 先手 - 控制</h3>
+                <h3>阵营： 夜魇</h3>
+                <h3>其他简称：VIP，毒龙</h3>
+
+            </div>
+        </div>
+		
+		<div data-role='footer' data-position="fixed">
+		    <a href="#" data-role="button" data-rel="back">返回</a>  
+			
+			
+		</div>
+	</div>
+	<div data-role='page' id="page73" data-theme="a">
+		<div data-role='header'>
+		    <a href="#page1" data-role="button" data-icon="home">首页</a>
+			<h1>刀塔2·英雄馆</h1>
+		</div>
+		<div data-role="content">
+            <div class="story">
+            	<img src="hero image/pic76.png">
+            	<h3>编织者</h3>
+                <h3>攻击类型：远程</h3>
+                <h3>定位：核心 - 逃生</h3>
+                <h3>阵营：夜魇</h3>
+                <h3>其他简称：蚂蚁</h3>
+
+            </div>
+        </div>
+		
+		<div data-role='footer' data-position="fixed">
+		    <a href="#" data-role="button" data-rel="back">返回</a>  
+			
+			
+		</div>
+	</div>
+	<div data-role='page' id="page74" data-theme="a">
+		<div data-role='header'>
+		    <a href="#page1" data-role="button" data-icon="home">首页</a>
+			<h1>刀塔2·英雄馆</h1>
+		</div>
+		<div data-role="content">
+            <div class="story">
+            	<img src="hero image/pic77.png">
+            	<h3>祸乱之源</h3>
+                <h3>攻击类型：远程</h3>
+                <h3>定位：辅助 - 控制 - 高爆发 - 耐久</h3>
+                <h3>阵营： 夜魇</h3>
+                <h3>其他简称：痛苦之源</h3>
+
+            </div>
+        </div>
+		
+		<div data-role='footer' data-position="fixed">
+		    <a href="#" data-role="button" data-rel="back">返回</a>  
+			
+			
+		</div>
+	</div>
+	<div data-role='page' id="page75" data-theme="a">
+		<div data-role='header'>
+		    <a href="#page1" data-role="button" data-icon="home">首页</a>
+			<h1>刀塔2·英雄馆</h1>
+		</div>
+		<div data-role="content">
+            <div class="story">
+            	<img src="hero image/pic78.png">
+            	<h3>蝙蝠骑士</h3>
+                <h3>攻击类型：远程</h3>
+                <h3>定位：先手 - 打野 - 控制 - 逃生</h3>
+                <h3>阵营： 夜魇</h3>
+                <h3>其他简称：蝙蝠</h3>
+
+            </div>
+        </div>
+		
+		<div data-role='footer' data-position="fixed">
+		    <a href="#" data-role="button" data-rel="back">返回</a>  
+			
+			
+		</div>
+	</div>
+	<div data-role='page' id="page76" data-theme="a">
+		<div data-role='header'>
+		    <a href="#page1" data-role="button" data-icon="home">首页</a>
+			<h1>刀塔2·英雄馆</h1>
+		</div>
+		<div data-role="content">
+            <div class="story">
+            	<img src="hero image/pic79.png">
+            	<h3>陈</h3>
+                <h3>攻击类型：远程</h3>
+                <h3>定位：辅助 - 打野 - 推进</h3>
+                <h3>阵营： 天辉</h3>
+                <h3>其他简称：Chen</h3>
+
+            </div>
+        </div>
+		
+		<div data-role='footer' data-position="fixed">
+		    <a href="#" data-role="button" data-rel="back">返回</a>  
+			
+			
+		</div>
+	</div>
+	<div data-role='page' id="page77" data-theme="a">
+		<div data-role='header'>
+		    <a href="#page1" data-role="button" data-icon="home">首页</a>
+			<h1>刀塔2·英雄馆</h1>
+		</div>
+		<div data-role="content">
+            <div class="story">
+            	<img src="hero image/pic80.png">
+            	<h3>水晶室女</h3>
+                <h3>攻击类型：远程</h3>
+                <h3>定位：辅助 - 控制 - 高爆发 - 打野</h3>
+                <h3>阵营： 天辉</h3>
+                <h3>其他简称：冰女</h3>
+
+            </div>
+        </div>
+		
+		<div data-role='footer' data-position="fixed">
+		    <a href="#" data-role="button" data-rel="back">返回</a>  
+			
+			
+		</div>
+	</div>
+	<div data-role='page' id="page78" data-theme="a">
+		<div data-role='header'>
+		    <a href="#page1" data-role="button" data-icon="home">首页</a>
+			<h1>刀塔2·英雄馆</h1>
+		</div>
+		<div data-role="content">
+            <div class="story">
+            	<img src="hero image/pic81.png">
+            	<h3>黑暗贤者</h3>
+                <h3>攻击类型：近战</h3>
+                <h3>定位：先手 - 打野 - 逃生 - 控制</h3>
+                <h3>阵营： 夜魇</h3>
+                <h3>其他简称：兔子、黑贤、DS</h3>
+
+            </div>
+        </div>
+		
+		<div data-role='footer' data-position="fixed">
+		    <a href="#" data-role="button" data-rel="back">返回</a>  
+			
+			
+		</div>
+	</div>
+	<div data-role='page' id="page79" data-theme="a">
+		<div data-role='header'>
+		    <a href="#page1" data-role="button" data-icon="home">首页</a>
+			<h1>刀塔2·英雄馆</h1>
+		</div>
+		<div data-role="content">
+            <div class="story">
+            	<img src="hero image/pic82.png">
+            	<h3>戴泽</h3>
+                <h3>攻击类型：远程</h3>
+                <h3>定位：辅助 - 高爆发 - 控制</h3>
+                <h3>阵营： 夜魇</h3>
+                <h3>其他简称：暗牧</h3>
+
+            </div>
+        </div>
+		
+		<div data-role='footer' data-position="fixed">
+		    <a href="#" data-role="button" data-rel="back">返回</a>  
+			
+			
+		</div>
+	</div>
+	<div data-role='page' id="page80" data-theme="a">
+		<div data-role='header'>
+		    <a href="#page1" data-role="button" data-icon="home">首页</a>
+			<h1>刀塔2·英雄馆</h1>
+		</div>
+		<div data-role="content">
+            <div class="story">
+            	<img src="hero image/pic83.png">
+            	<h3>死亡先知</h3>
+                <h3>攻击类型：远程</h3>
+                <h3>定位：核心 - 推进 - 高爆发 - 控制</h3>
+                <h3>阵营： 夜魇</h3>
+                <h3>其他简称：DP</h3>
+
+            </div>
+        </div>
+		
+		<div data-role='footer' data-position="fixed">
+		    <a href="#" data-role="button" data-rel="back">返回</a>  
+			
+			
+		</div>
+	</div>
+	<div data-role='page' id="page81" data-theme="a">
+		<div data-role='header'>
+		    <a href="#page1" data-role="button" data-icon="home">首页</a>
+			<h1>刀塔2·英雄馆</h1>
+		</div>
+		<div data-role="content">
+            <div class="story">
+            	<img src="hero image/pic84.png">
+            	<h3>干扰者</h3>
+                <h3>攻击类型：远程</h3>
+                <h3>定位：辅助 - 控制 - 高爆发 - 先手</h3>
+                <h3>阵营： 天辉</h3>
+                <h3>其他简称：萨尔</h3>
+
+            </div>
+        </div>
+		
+		<div data-role='footer' data-position="fixed">
+		    <a href="#" data-role="button" data-rel="back">返回</a>  
+			
+			
+		</div>
+	</div>
+	<div data-role='page' id="page82" data-theme="a">
+		<div data-role='header'>
+		    <a href="#page1" data-role="button" data-icon="home">首页</a>
+			<h1>刀塔2·英雄馆</h1>
+		</div>
+		<div data-role="content">
+            <div class="story">
+            	<img src="hero image/pic85.png">
+            	<h3>魅惑魔女</h3>
+                <h3>攻击类型：远程</h3>
+                <h3>定位：辅助 - 打野 - 推进 - 耐久 - 控制</h3>
+                <h3>阵营： 天辉</h3>
+                <h3>其他简称：小鹿</h3>
+
+            </div>
+        </div>
+		
+		<div data-role='footer' data-position="fixed">
+		    <a href="#" data-role="button" data-rel="back">返回</a>  
+			
+			
+		</div>
+	</div>
+	<div data-role='page' id="page83" data-theme="a">
+		<div data-role='header'>
+		    <a href="#page1" data-role="button" data-icon="home">首页</a>
+			<h1>刀塔2·英雄馆</h1>
+		</div>
+		<div data-role="content">
+            <div class="story">
+            	<img src="hero image/pic86.png">
+            	<h3>谜团</h3>
+                <h3>攻击类型：远程</h3>
+                <h3>定位：控制 - 打野 - 先手 - 推进</h3>
+                <h3>阵营： 夜魇</h3>
+                <h3>其他简称：Enig</h3>
+
+            </div>
+        </div>
+		
+		<div data-role='footer' data-position="fixed">
+		    <a href="#" data-role="button" data-rel="back">返回</a>  
+			
+			
+		</div>
+	</div>
+	<div data-role='page' id="page84" data-theme="a">
+		<div data-role='header'>
+		    <a href="#page1" data-role="button" data-icon="home">首页</a>
+			<h1>刀塔2·英雄馆</h1>
+		</div>
+		<div data-role="content">
+            <div class="story">
+            	<img src="hero image/pic87.png">
+            	<h3>先知</h3>
+                <h3>攻击类型：远程</h3>
+                <h3>定位：核心 - 打野 - 推进 - 逃生 - 高爆发</h3>
+                <h3>阵营： 天辉</h3>
+                <h3>其他简称：FUR</h3>
+
+            </div>
+        </div>
+		
+		<div data-role='footer' data-position="fixed">
+		    <a href="#" data-role="button" data-rel="back">返回</a>  
+			
+			
+		</div>
+	</div>
+	<div data-role='page' id="page85" data-theme="a">
+		<div data-role='header'>
+		    <a href="#page1" data-role="button" data-icon="home">首页</a>
+			<h1>刀塔2·英雄馆</h1>
+		</div>
+		<div data-role="content">
+            <div class="story">
+            	<img src="hero image/pic88.png">
+            	<h3>祈求者</h3>
+                <h3>攻击类型：远程</h3>
+                <h3>定位：核心 - 高爆发 - 控制 - 逃生 - 推进</h3>
+                <h3>阵营： 夜魇</h3>
+                <h3>其他简称：卡尔、加若、Invoker</h3>
+
+            </div>
+        </div>
+		
+		<div data-role='footer' data-position="fixed">
+		    <a href="#" data-role="button" data-rel="back">返回</a>  
+			
+			
+		</div>
+	</div>
+	<div data-role='page' id="page86" data-theme="a">
+		<div data-role='header'>
+		    <a href="#page1" data-role="button" data-icon="home">首页</a>
+			<h1>刀塔2·英雄馆</h1>
+		</div>
+		<div data-role="content">
+            <div class="story">
+            	<img src="hero image/pic89.png">
+            	<h3>杰奇洛</h3>
+                <h3>攻击类型：远程</h3>
+                <h3>定位：辅助 - 高爆发 - 推进 - 控制</h3>
+                <h3>阵营： 天辉</h3>
+                <h3>其他简称：双头龙</h3>
+
+            </div>
+        </div>
+		
+		<div data-role='footer' data-position="fixed">
+		    <a href="#" data-role="button" data-rel="back">返回</a>  
+			
+			
+		</div>
+	</div>
+	<div data-role='page' id="page87" data-theme="a">
+		<div data-role='header'>
+		    <a href="#page1" data-role="button" data-icon="home">首页</a>
+			<h1>刀塔2·英雄馆</h1>
+		</div>
+		<div data-role="content">
+            <div class="story">
+            	<img src="hero image/pic90.png">
+            	<h3>光之守卫</h3>
+                <h3>攻击类型：远程</h3>
+                <h3>定位：辅助 - 高爆发 - 控制 - 打野</h3>
+                <h3>阵营： 天辉</h3>
+                <h3>其他简称：光法、伊扎洛</h3>
+
+            </div>
+        </div>
+		
+		<div data-role='footer' data-position="fixed">
+		    <a href="#" data-role="button" data-rel="back">返回</a>  
+			
+			
+		</div>
+	</div>
+	<div data-role='page' id="page88" data-theme="a">
+		<div data-role='header'>
+		    <a href="#page1" data-role="button" data-icon="home">首页</a>
+			<h1>刀塔2·英雄馆</h1>
+		</div>
+		<div data-role="content">
+            <div class="story">
+            	<img src="hero image/pic91.png">
+            	<h3>拉席克</h3>
+                <h3>攻击类型：远程</h3>
+                <h3>定位：核心 - 辅助 - 高爆发 - 推进 - 控制</h3>
+                <h3>阵营： 夜魇</h3>
+                <h3>其他简称：老鹿，光鹿</h3>
+
+            </div>
+        </div>
+		
+		<div data-role='footer' data-position="fixed">
+		    <a href="#" data-role="button" data-rel="back">返回</a>  
+			
+			
+		</div>
+	</div>
+	<div data-role='page' id="page89" data-theme="a">
+		<div data-role='header'>
+		    <a href="#page1" data-role="button" data-icon="home">首页</a>
+			<h1>刀塔2·英雄馆</h1>
+		</div>
+		<div data-role="content">
+            <div class="story">
+            	<img src="hero image/pic92.png">
+            	<h3>巫妖</h3>
+                <h3>攻击类型：远程</h3>
+                <h3>定位：辅助 - 高爆发</h3>
+                <h3>阵营： 夜魇</h3>
+                <h3>其他简称：LICH</h3>
+
+            </div>
+        </div>
+		
+		<div data-role='footer' data-position="fixed">
+		    <a href="#" data-role="button" data-rel="back">返回</a>  
+			
+			
+		</div>
+	</div>
+	<div data-role='page' id="page90" data-theme="a">
+		<div data-role='header'>
+		    <a href="#page1" data-role="button" data-icon="home">首页</a>
+			<h1>刀塔2·英雄馆</h1>
+		</div>
+		<div data-role="content">
+            <div class="story">
+            	<img src="hero image/pic93.png">
+            	<h3>莉娜</h3>
+                <h3>攻击类型：远程</h3>
+                <h3>定位：辅助 - 核心 - 高爆发 - 控制</h3>
+                <h3>阵营： 天辉</h3>
+                <h3>其他简称：火女</h3>
+
+            </div>
+        </div>
+		
+		<div data-role='footer' data-position="fixed">
+		    <a href="#" data-role="button" data-rel="back">返回</a>  
+			
+			
+		</div>
+	</div>
+	<div data-role='page' id="page91" data-theme="a">
+		<div data-role='header'>
+		    <a href="#page1" data-role="button" data-icon="home">首页</a>
+			<h1>刀塔2·英雄馆</h1>
+		</div>
+		<div data-role="content">
+            <div class="story">
+            	<img src="hero image/pic94.png">
+            	<h3>莱恩</h3>
+                <h3>攻击类型：远程</h3>
+                <h3>定位：辅助 - 控制 - 高爆发 - 先手</h3>
+                <h3>阵营： 夜魇</h3>
+                <h3>其他简称：Lion</h3>
+
+            </div>
+        </div>
+		
+		<div data-role='footer' data-position="fixed">
+		    <a href="#" data-role="button" data-rel="back">返回</a>  
+			
+			
+		</div>
+	</div>
+	<div data-role='page' id="page92" data-theme="a">
+		<div data-role='header'>
+		    <a href="#page1" data-role="button" data-icon="home">首页</a>
+			<h1>刀塔2·英雄馆</h1>
+		</div>
+		<div data-role="content">
+            <div class="story">
+            	<img src="hero image/pic95.png">
+            	<h3>瘟疫法师</h3>
+                <h3>攻击类型：远程</h3>
+                <h3>定位：核心 - 高爆发 - 耐久 - 控制</h3>
+                <h3>阵营： 夜魇</h3>
+                <h3>其他简称：NEC，死灵法</h3>
+
+            </div>
+        </div>
+		
+		<div data-role='footer' data-position="fixed">
+		    <a href="#" data-role="button" data-rel="back">返回</a>  
+			
+			
+		</div>
+	</div>
+	<div data-role='page' id="page93" data-theme="a">
+		<div data-role='header'>
+		    <a href="#page1" data-role="button" data-icon="home">首页</a>
+			<h1>刀塔2·英雄馆</h1>
+		</div>
+		<div data-role="content">
+            <div class="story">
+            	<img src="hero image/pic96.png">
+            	<h3>殁境神蚀者</h3>
+                <h3>攻击类型：远程</h3>
+                <h3>定位：核心 - 高爆发 - 控制</h3>
+                <h3>阵营： 夜魇</h3>
+                <h3>其他简称：黑鸟</h3>
+
+            </div>
+        </div>
+		
+		<div data-role='footer' data-position="fixed">
+		    <a href="#" data-role="button" data-rel="back">返回</a>  
+			
+			
+		</div>
+	</div>
+	<div data-role='page' id="page94" data-theme="a">
+		<div data-role='header'>
+		    <a href="#page1" data-role="button" data-icon="home">首页</a>
+			<h1>刀塔2·英雄馆</h1>
+		</div>
+		<div data-role="content">
+            <div class="story">
+            	<img src="hero image/pic97.png">
+            	<h3>食人魔魔法师</h3>
+                <h3>攻击类型：近战</h3>
+                <h3>定位：辅助 - 高爆发 - 控制 - 耐久 - 先手</h3>
+                <h3>阵营： 天辉</h3>
+                <h3>其他简称：蓝胖子</h3>
+
+            </div>
+        </div>
+		
+		<div data-role='footer' data-position="fixed">
+		    <a href="#" data-role="button" data-rel="back">返回</a>  
+			
+			
+		</div>
+	</div>
+	<div data-role='page' id="page95" data-theme="a">
+		<div data-role='header'>
+		    <a href="#page1" data-role="button" data-icon="home">首页</a>
+			<h1>刀塔2·英雄馆</h1>
+		</div>
+		<div data-role="content">
+            <div class="story">
+            	<img src="hero image/pic98.png">
+            	<h3>神谕者</h3>
+                <h3>攻击类型：远程</h3>
+                <h3>定位：辅助 - 高爆发 - 控制 - 逃生</h3>
+                <h3>阵营： 天辉</h3>
+                <h3>其他简称：神谕者、Oracle</h3>
+            </div>
+        </div>
+		
+		<div data-role='footer' data-position="fixed">
+		    <a href="#" data-role="button" data-rel="back">返回</a>  
+			
+			
+		</div>
+	</div>
+	<div data-role='page' id="page96" data-theme="a">
+		<div data-role='header'>
+		    <a href="#page1" data-role="button" data-icon="home">首页</a>
+			<h1>刀塔2·英雄馆</h1>
+		</div>
+		<div data-role="content">
+            <div class="story">
+            	<img src="hero image/pic99.png">
+            	<h3>远古冰魄</h3>
+                <h3>攻击类型：远程</h3>
+                <h3>定位：辅助 - 控制 - 高爆发</h3>
+                <h3>阵营： 夜魇</h3>
+                <h3>其他简称：冰魂</h3>
+
+            </div>
+        </div>
+		
+		<div data-role='footer' data-position="fixed">
+		    <a href="#" data-role="button" data-rel="back">返回</a>  
+			
+			
+		</div>
+	</div>
+	<div data-role='page' id="page97" data-theme="a">
+		<div data-role='header'>
+		    <a href="#page1" data-role="button" data-icon="home">首页</a>
+			<h1>刀塔2·英雄馆</h1>
+		</div>
+		<div data-role="content">
+            <div class="story">
+            	<img src="hero image/pic100.png">
+           	    <h3>帕克</h3>
+                <h3>攻击类型：远程</h3>
+                <h3>定位：先手 - 控制 - 逃生 - 高爆发</h3>
+                <h3>阵营： 天辉</h3>
+                <h3>其他简称：puck，精灵龙</h3>
+
+            </div>
+        </div>
+		
+		<div data-role='footer' data-position="fixed">
+		    <a href="#" data-role="button" data-rel="back">返回</a>  
+			
+			
+		</div>
+	</div>
+	<div data-role='page' id="page98" data-theme="a">
+		<div data-role='header'>
+		    <a href="#page1" data-role="button" data-icon="home">首页</a>
+			<h1>刀塔2·英雄馆</h1>
+		</div>
+		<div data-role="content">
+            <div class="story">
+            	<img src="hero image/pic101.png">
+            	<h3>帕格纳</h3>
+                <h3>攻击类型：远程</h3>
+                <h3>定位：高爆发 - 推进</h3>
+                <h3>阵营： 夜魇</h3>
+                <h3>其他简称：骨法</h3>
+
+
+            </div>
+        </div>
+		
+		<div data-role='footer' data-position="fixed">
+		    <a href="#" data-role="button" data-rel="back">返回</a>  
+			
+			
+		</div>
+	</div>
+	<div data-role='page' id="page99" data-theme="a">
+		<div data-role='header'>
+		    <a href="#page1" data-role="button" data-icon="home">首页</a>
+			<h1>刀塔2·英雄馆</h1>
+		</div>
+		<div data-role="content">
+            <div class="story">
+            	<img src="hero image/pic102.png">
+        	<h3>痛苦女王</h3>
+                <h3>攻击类型：远程</h3>
+                <h3>定位：核心 - 高爆发 - 逃生</h3>
+                <h3>阵营： 夜魇</h3>
+                <h3>其他简称：QOP</h3>
+
+            </div>
+        </div>
+		
+		<div data-role='footer' data-position="fixed">
+		    <a href="#" data-role="button" data-rel="back">返回</a>  
+			
+			
+		</div>
+	</div>
+	<div data-role='page' id="page100" data-theme="a">
+		<div data-role='header'>
+		    <a href="#page1" data-role="button" data-icon="home">首页</a>
+			<h1>刀塔2·英雄馆</h1>
+		</div>
+		<div data-role="content">
+            <div class="story">
+            	<img src="hero image/pic103.png">
+               	<h3>拉比克</h3>
+                <h3>攻击类型：远程</h3>
+                <h3>定位：辅助 - 控制 - 高爆发</h3>
+                <h3>阵营： 天辉</h3>
+                <h3>其他简称：GM</h3>
+
+            </div>
+        </div>
+		
+		<div data-role='footer' data-position="fixed">
+		    <a href="#" data-role="button" data-rel="back">返回</a>  
+			
+			
+		</div>
+	</div>
+	<div data-role='page' id="page101" data-theme="a">
+		<div data-role='header'>
+		    <a href="#page1" data-role="button" data-icon="home">首页</a>
+			<h1>刀塔2·英雄馆</h1>
+		</div>
+		<div data-role="content">
+            <div class="story">
+            	<img src="hero image/pic104.png">
+               	<h3>暗影恶魔</h3>
+                <h3>攻击类型：远程</h3>
+                <h3>定位：辅助 - 控制 - 先手 - 高爆发</h3>
+                <h3>阵营： 夜魇</h3>
+                <h3>其他简称：毒狗</h3>
+
+
+            </div>
+        </div>
+		
+		<div data-role='footer' data-position="fixed">
+		    <a href="#" data-role="button" data-rel="back">返回</a>  
+			
+			
+		</div>
+	</div>
+	<div data-role='page' id="page102" data-theme="a">
+		<div data-role='header'>
+		    <a href="#page1" data-role="button" data-icon="home">首页</a>
+			<h1>刀塔2·英雄馆</h1>
+		</div>
+		<div data-role="content">
+            <div class="story">
+            	<img src="hero image/pic105.png">
+         	<h3>暗影萨满</h3>
+                <h3>攻击类型：远程</h3>
+                <h3>定位：辅助 - 推进 - 控制 - 高爆发 - 先手</h3>
+                <h3>阵营： 天辉</h3>
+                <h3>其他简称：小Y</h3>
+
+            </div>
+        </div>
+		
+		<div data-role='footer' data-position="fixed">
+		    <a href="#" data-role="button" data-rel="back">返回</a>  
+			
+			
+		</div>
+	</div>
+	<div data-role='page' id="page103" data-theme="a">
+		<div data-role='header'>
+		    <a href="#page1" data-role="button" data-icon="home">首页</a>
+			<h1>刀塔2·英雄馆</h1>
+		</div>
+		<div data-role="content">
+            <div class="story">
+            	<img src="hero image/pic106.png">
+              	<h3>沉默术士</h3>
+                <h3>攻击类型：远程</h3>
+                <h3>定位：核心 - 辅助 - 控制 - 先手 - 高爆发</h3>
+                <h3>阵营： 天辉</h3>
+                <h3>其他简称：沉默、诺崇</h3>
+
+            </div>
+        </div>
+		
+		<div data-role='footer' data-position="fixed">
+		    <a href="#" data-role="button" data-rel="back">返回</a>  
+			
+			
+		</div>
+	</div>
+	<div data-role='page' id="page104" data-theme="a">
+		<div data-role='header'>
+		    <a href="#page1" data-role="button" data-icon="home">首页</a>
+			<h1>刀塔2·英雄馆</h1>
+		</div>
+		<div data-role="content">
+            <div class="story">
+            	<img src="hero image/pic107.png">
+                     	<h3>天怒法师</h3>
+                <h3>攻击类型：远程</h3>
+                <h3>定位：辅助 - 高爆发 - 控制</h3>
+                <h3>阵营： 天辉</h3>
+                <h3>其他简称：龙鹰</h3>
+
+            </div>
+        </div>
+		
+		<div data-role='footer' data-position="fixed">
+		    <a href="#" data-role="button" data-rel="back">返回</a>  
+			
+			
+		</div>
+	</div>
+	<div data-role='page' id="page105" data-theme="a">
+		<div data-role='header'>
+		    <a href="#page1" data-role="button" data-icon="home">首页</a>
+			<h1>刀塔2·英雄馆</h1>
+		</div>
+		<div data-role="content">
+            <div class="story">
+            	<img src="hero image/pic108.png">
+            	<h3>风暴之灵</h3>
+                <h3>攻击类型：远程</h3>
+                <h3>定位：核心 - 逃生 - 高爆发 - 先手 - 控制</h3>
+                <h3>阵营： 天辉</h3>
+                <h3>其他简称：蓝猫</h3>
+
+            </div>
+        </div>
+		
+		<div data-role='footer' data-position="fixed">
+		    <a href="#" data-role="button" data-rel="back">返回</a>  
+			
+			
+		</div>
+	</div>
+	<div data-role='page' id="page106" data-theme="a">
+		<div data-role='header'>
+		    <a href="#page1" data-role="button" data-icon="home">首页</a>
+			<h1>刀塔2·英雄馆</h1>
+		</div>
+		<div data-role="content">
+            <div class="story">
+            	<img src="hero image/pic109.png">
+                  	<h3>工程师</h3>
+                <h3>攻击类型：远程</h3>
+                <h3>定位：高爆发 - 控制</h3>
+                <h3>阵营： 天辉</h3>
+                <h3>其他简称：炸弹人、拉登</h3>
+
+            </div>
+        </div>
+		
+		<div data-role='footer' data-position="fixed">
+		    <a href="#" data-role="button" data-rel="back">返回</a>  
+			
+			
+		</div>
+	</div>
+	<div data-role='page' id="page107" data-theme="a">
+		<div data-role='header'>
+		    <a href="#page1" data-role="button" data-icon="home">首页</a>
+			<h1>刀塔2·英雄馆</h1>
+		</div>
+		<div data-role="content">
+            <div class="story">
+            	<img src="hero image/pic110.png">
+             	<h3>修补匠</h3>
+                <h3>攻击类型：远程</h3>
+                <h3>定位：核心 - 高爆发 - 推进</h3>
+                <h3>阵营： 天辉</h3>
+                <h3>其他简称：TK</h3>
+            </div>
+        </div>
+		
+		<div data-role='footer' data-position="fixed">
+		    <a href="#" data-role="button" data-rel="back">返回</a>  
+			
+			
+		</div>
+	</div>
+	<div data-role='page' id="page108" data-theme="a">
+		<div data-role='header'>
+		    <a href="#page1" data-role="button" data-icon="home">首页</a>
+			<h1>刀塔2·英雄馆</h1>
+		</div>
+		<div data-role="content">
+            <div class="story">
+            	<img src="hero image/pic111.png">
+         	<h3>维萨吉</h3>
+                <h3>攻击类型：远程</h3>
+                <h3>定位：辅助 - 高爆发 - 耐久 - 控制 - 推进</h3>
+                <h3>阵营： 夜魇</h3>
+                <h3>其他简称：灰鸟，死灵飞龙</h3>
+
+
+            </div>
+        </div>
+		
+		<div data-role='footer' data-position="fixed">
+		    <a href="#" data-role="button" data-rel="back">返回</a>  
+			
+			
+		</div>
+	</div>
+	<div data-role='page' id="page109" data-theme="a">
+		<div data-role='header'>
+		    <a href="#page1" data-role="button" data-icon="home">首页</a>
+			<h1>刀塔2·英雄馆</h1>
+		</div>
+		<div data-role="content">
+            <div class="story">
+            	<img src="hero image/pic112.png">
+           	<h3>术士</h3>
+                <h3>攻击类型：远程</h3>
+                <h3>定位：辅助 - 先手 - 控制</h3>
+                <h3>阵营： 夜魇</h3>
+                <h3>其他简称：Warlock</h3>
+            </div>
+        </div>
+		
+		<div data-role='footer' data-position="fixed">
+		    <a href="#" data-role="button" data-rel="back">返回</a>  
+			
+			
+		</div>
+	</div>
+	<div data-role='page' id="page110" data-theme="a">
+		<div data-role='header'>
+		    <a href="#page1" data-role="button" data-icon="home">首页</a>
+			<h1>刀塔2·英雄馆</h1>
+		</div>
+		<div data-role="content">
+            <div class="story">
+            	<img src="hero image/pic113.png">
+              	<h3>风行者</h3>
+                <h3>攻击类型：远程</h3>
+                <h3>定位：核心 - 辅助 - 控制 - 逃生 - 高爆发</h3>
+                <h3>阵营： 天辉</h3>
+                <h3>其他简称：风行，WR</h3>
+
+            </div>
+        </div>
+		
+		<div data-role='footer' data-position="fixed">
+		    <a href="#" data-role="button" data-rel="back">返回</a>  
+			
+			
+		</div>
+	</div>
+	<div data-role='page' id="page111" data-theme="a">
+		<div data-role='header'>
+		    <a href="#page1" data-role="button" data-icon="home">首页</a>
+			<h1>刀塔2·英雄馆</h1>
+		</div>
+		<div data-role="content">
+            <div class="story">
+            	<img src="hero image/pic114.png">
+                	<h3>寒冬飞龙</h3>
+                <h3>攻击类型：远程</h3>
+                <h3>定位：辅助 - 控制 - 高爆发</h3>
+                <h3>阵营： 夜魇</h3>
+                <h3>其他简称：冰龙</h3>
+
+
+            </div>
+        </div>
+		
+		<div data-role='footer' data-position="fixed">
+		    <a href="#" data-role="button" data-rel="back">返回</a>  
+			
+			
+		</div>
+	</div>
+	<div data-role='page' id="page112" data-theme="a">
+		<div data-role='header'>
+		    <a href="#page1" data-role="button" data-icon="home">首页</a>
+			<h1>刀塔2·英雄馆</h1>
+		</div>
+		<div data-role="content">
+            <div class="story">
+            	<img src="hero image/pic115.png">
+          	<h3>巫医</h3>
+                <h3>攻击类型：远程</h3>
+                <h3>定位：辅助 - 高爆发 - 控制</h3>
+                <h3>阵营： 夜魇</h3>
+                <h3>其他简称：WD</h3>
+
+            </div>
+        </div>
+		
+		<div data-role='footer' data-position="fixed">
+		    <a href="#" data-role="button" data-rel="back">返回</a>  
+			
+			
+		</div>
+	</div>
+	<div data-role='page' id="page113" data-theme="a">
+		<div data-role='header'>
+		    <a href="#page1" data-role="button" data-icon="home">首页</a>
+			<h1>刀塔2·英雄馆</h1>
+		</div>
+		<div data-role="content">
+            <div class="story">
+            	<img src="hero image/pic116.png">
+            	<h3>宙斯</h3>
+                <h3>攻击类型：远程</h3>
+                <h3>定位：高爆发</h3>
+                <h3>阵营： 天辉</h3>
+                <h3>其他简称：神王</h3>
+
+            </div>
+        </div>
+		
+		<div data-role='footer' data-position="fixed">
+		    <a href="#" data-role="button" data-rel="back">返回</a>  
+			
+			
+		</div>
+	</div>
+	
+</body>
+</html>
+
